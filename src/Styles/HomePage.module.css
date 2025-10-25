@@ -1,16 +1,218 @@
 .homePage{
     width: 100%;
     height: 100%;
-    background: darkslategray;
+    background: url(../Images/HomePageImages/BackgroundHomePage.jpg) no-repeat;
+    background-size: cover;
     position: fixed;
     font-family: "El Messiri";
 }
 
-.homePage h1{
-    font-size: 5vw;
-    text-align: center;
-    margin: 0;
-    margin-top: 1%;
+.overlayTopbar{
+    width: 100%;
+    height: 5.5vw;
+    position: absolute;
+    top: 0;
+    background-color: rgba(72, 72, 72, 0.6);
+    background-image: 
+        linear-gradient(225deg, rgba(72, 72, 72) 0%,
+                                rgba(160, 160, 160) 20%, 
+                                rgba(72, 72, 72) 40%, 
+                                rgba(160, 160, 160) 60%, 
+                                rgba(72, 72, 72) 80%, 
+                                rgba(160, 160, 160) 100%);
+}
+
+.topbar{
+    width: 100%;
+    height: 5vw;
+    position: absolute;
+    top: 0;
+    background: url(../Images/HomePageImages/BackgoundTopbarHomePage.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.logo{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    filter: drop-shadow( 0.2vw 0.2vw 0.2vw black);
+}
+
+.sideDecorationLeft{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRight{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.overlayBlockButtonLeft{
+    width: 25%;
+    height: 70%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    background-color: rgba(72, 72, 72, 0.6);
+    background-image: 
+        linear-gradient(225deg, rgba(72, 72, 72, 0.6) 0%,
+                                rgba(160, 160, 160, 0.6) 20%, 
+                                rgba(72, 72, 72, 0.6) 40%, 
+                                rgba(160, 160, 160, 0.6) 60%, 
+                                rgba(72, 72, 72, 0.6) 80%, 
+                                rgba(160, 160, 160, 0.6) 100%);
+    border-radius: 2vw;
+}
+
+.overlayBlockButtonRight{
+    width: 25%;
+    height: 70%;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    background-color: rgba(72, 72, 72, 0.6);
+    background-image: 
+        linear-gradient(225deg, rgba(72, 72, 72, 0.6) 0%,
+                                rgba(160, 160, 160, 0.6) 20%, 
+                                rgba(72, 72, 72, 0.6) 40%, 
+                                rgba(160, 160, 160, 0.6) 60%, 
+                                rgba(72, 72, 72, 0.6) 80%, 
+                                rgba(160, 160, 160, 0.6) 100%);
+    border-radius: 2vw;
+}
+
+.backgroundBlockButton{
+    width: 95%;
+    height: 95%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: rgba(67, 79, 146, 0.6);
+    border-radius: 2vw;
+}
+
+.buttonRaces{
+    width: 20vw;
+    height: 4vw;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50vw;
+    border: solid 0.2vw gray;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 1);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(200, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    font-size: 2.5vw;
+    font-family: "El Messiri";
+    font-weight: bold;
     color: silver;
-    -webkit-text-stroke: 0.1vw black;
+    -webkit-text-stroke: 0.05vw black;
+    opacity: 1;
+}
+
+.buttonRaces:hover{
+    background-color: rgba(0, 0, 0, 1);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgb(255, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+.buttonFactions{
+    width: 20vw;
+    height: 4vw;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50vw;
+    border: solid 0.2vw gray;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 1);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 158, 12, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    font-size: 2.5vw;
+    font-family: "El Messiri";
+    font-weight: bold;
+    color: silver;
+    -webkit-text-stroke: 0.05vw black;
+}
+
+.buttonFactions:hover{
+    background-color: rgba(0, 0, 0, 1);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 200, 12, 1) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+.buttonEvents{
+    width: 20vw;
+    height: 4vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50vw;
+    border: solid 0.2vw gray;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 1);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(158, 118, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    font-size: 2.5vw;
+    font-family: "El Messiri";
+    font-weight: bold;
+    color: silver;
+    -webkit-text-stroke: 0.05vw black;
+}
+
+.buttonEvents:hover{
+    background-color: rgba(0, 0, 0, 1);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgb(200, 151, 0) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+.overlayBlockText{
+    width: 25%;
+    height: 70%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(72, 72, 72, 0.6);
+    background-image: 
+        linear-gradient(225deg, rgba(72, 72, 72, 0.6) 0%,
+                                rgba(160, 160, 160, 0.6) 20%, 
+                                rgba(72, 72, 72, 0.6) 40%, 
+                                rgba(160, 160, 160, 0.6) 60%, 
+                                rgba(72, 72, 72, 0.6) 80%, 
+                                rgba(160, 160, 160, 0.6) 100%);
+    border-radius: 2vw;
+}
+
+.backgroundBlockText{
+    width: 95%;
+    height: 95%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: rgba(67, 79, 146, 0.6);
+    border-radius: 2vw;
+    text-align: center;
+    color: silver;
+}
+
+.backgroundBlockText h1{
+    font-size: 2vw;
+}
+
+.backgroundBlockText p{
+    font-size: 1.2vw;
+    margin: 2%;
 }
