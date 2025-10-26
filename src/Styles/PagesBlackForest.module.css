@@ -1,0 +1,75 @@
+.pageBlackForest{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: darkgreen;
+}
+
+.pageOrcRace{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: darkgreen;
+}
+
+.overlayTopbar{
+    width: 100%;
+    height: 5.5vw;
+    position: absolute;
+    top: 0;
+    background-color: rgba(72, 72, 72, 0.6);
+    background-image: 
+        linear-gradient(225deg, rgba(72, 72, 72) 0%,
+                                rgba(160, 160, 160) 20%, 
+                                rgba(72, 72, 72) 40%, 
+                                rgba(160, 160, 160) 60%, 
+                                rgba(72, 72, 72) 80%, 
+                                rgba(160, 160, 160) 100%);
+}
+
+.topbar{
+    width: 100%;
+    height: 5vw;
+    position: absolute;
+    top: 0;
+    background: url(../Images/HomePageImages/BackgoundTopbarHomePage.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.topbar h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    margin: 0;
+    font-family: "El Messiri";
+    font-size: 4vw;
+    font-weight: bold;
+    color: goldenrod;
+    -webkit-text-stroke: 0.05vw black;
+}
+
+.sideDecorationLeft{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRight{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.transitionButton{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}

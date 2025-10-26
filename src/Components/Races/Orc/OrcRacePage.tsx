@@ -1,15 +1,17 @@
-import classes from "../../../Styles/OrcRace.module.css";
+import classes from "../../../Styles/PagesBlackForest.module.css";
+import Tree from "../../../Images/BlackForestImages/DecorationBlackForest.png";
 
-export const OrcRacePage = (props: any) => {
-
-    function handleCloseModalRace() {
-        props.setStateModalRace((prev: any) => ({...prev, orc: false}))
-    }
+export const OrcRacePage = () => {
 
     return (
         <div className={classes.pageOrcRace}>
-            Orc
-            <button className={classes.closeButton} onClick={handleCloseModalRace}>Закрыть</button>
+            <div className={classes.overlayTopbar}>
+                <div className={classes.topbar}>
+                    <h1>Орки</h1>
+                </div>
+            </div>
+                <img className={classes.sideDecorationRight} src={Tree} alt="Tree" draggable="false"/>
+                <img className={classes.sideDecorationLeft} src={Tree} alt="Tree" draggable="false"/>
         </div>
     )
 };

@@ -1,15 +1,20 @@
-import classes from "../../../Styles/HumanRaces.module.css";
+import classes from "../../../Styles/PagesConfederationAndInmar.module.css";
+import Tower from "../../../Images/InmarImages/DecorationInmar.png";
+import Palm from "../../../Images/ConfederationImages/DecorationConfederation.png";
 
 export const HumanRacesPage = (props: any) => {
 
-    function handleCloseModalRace() {
-        props.setStateModalRace((prev: any) => ({...prev, human: false}))
-    }
-
     return (
         <div className={classes.pageHumanRaces}>
-            Human
-            <button className={classes.closeButton} onClick={handleCloseModalRace}>Закрыть</button>
+            <div className={classes.overlayTopbar}>
+                <div className={classes.topbar}>
+                    <h1>Люди</h1>
+                    
+                </div>
+            </div>
+                <img className={classes.sideDecorationRight} src={Palm} alt="Palm" draggable="false"/>
+                <img className={classes.sideDecorationLeft} src={Tower} alt="Tower" draggable="false"/>
+            
         </div>
     )
 };

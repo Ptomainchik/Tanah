@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router";
-import classes from "../../../Styles/FactionBlackForest.module.css";
+import classes from "../../../Styles/PagesBlackForest.module.css";
+import Tree from "../../../Images/BlackForestImages/DecorationBlackForest.png";
 
 export const BlackForest = () => {
     
@@ -11,7 +12,13 @@ export const BlackForest = () => {
 
     return (
         <div className={classes.pageBlackForest}>
-            Orc Factions
+            <div className={classes.overlayTopbar}>
+                <div className={classes.topbar}>
+                    <h1>Чёрный лес</h1>
+                </div>
+            </div>
+                <img className={classes.sideDecorationRight} src={Tree} alt="Tree" draggable="false"/>
+                <img className={classes.sideDecorationLeft} src={Tree} alt="Tree" draggable="false"/>
             <button className={classes.transitionButton} onClick={handleFactionsPageTransition}>Фракции</button>
         </div>
     )

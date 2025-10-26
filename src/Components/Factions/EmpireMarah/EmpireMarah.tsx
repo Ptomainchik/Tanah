@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router";
-import classes from "../../../Styles/FactionEmpireMarah.module.css";
+import classes from "../../../Styles/PagesEmpireMarah.module.css";
+import Vine from "../../../Images/EmpireImages/DecorationEmpire.png";
 
 export const EmpireMarah = () => {
     
@@ -11,7 +12,14 @@ export const EmpireMarah = () => {
 
     return (
         <div className={classes.pageEmpireMarah}>
-            Elven Factions
+            <div className={classes.overlayTopbar}>
+                <div className={classes.topbar}>
+                    <h1>Империя Марах</h1>
+                </div>
+            </div>
+                <img className={classes.sideDecorationRight} src={Vine} alt="Vine" draggable="false"/>
+                <img className={classes.sideDecorationLeft} src={Vine} alt="Vine" draggable="false"/>
+
             <button className={classes.transitionButton} onClick={handleFactionsPageTransition}>Фракции</button>
         </div>
     )

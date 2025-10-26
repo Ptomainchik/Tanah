@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router";
-import classes from "../../../Styles/FactionKingdomInmar.module.css";
+import classes from "../../../Styles/PagesConfederationAndInmar.module.css";
+import Tower from "../../../Images/InmarImages/DecorationInmar.png";
 
 export const KingdomInmar = () => {
     
@@ -11,6 +12,14 @@ export const KingdomInmar = () => {
 
     return (
         <div className={classes.pageKingdomInmar}>
+             <div className={classes.overlayTopbar}>
+                <div className={classes.topbar}>
+                    <h1>Королевство Инмар</h1>
+                </div>
+            </div>
+        
+                <img className={classes.sideDecorationRight} src={Tower} alt="Tower" draggable="false"/>
+                <img className={classes.sideDecorationLeft} src={Tower} alt="Tower" draggable="false"/>
             Inmar Factions
             <button className={classes.transitionButton} onClick={handleFactionsPageTransition}>Фракции</button>
         </div>

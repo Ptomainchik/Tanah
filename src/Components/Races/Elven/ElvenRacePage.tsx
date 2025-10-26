@@ -1,15 +1,18 @@
-import classes from "../../../Styles/ElvenRace.module.css";
-
+import classes from "../../../Styles/PagesEmpireMarah.module.css";
+import Vine from "../../../Images/EmpireImages/DecorationEmpire.png";
+ 
 export const ElvenRacePage = (props: any) => {
-
-    function handleCloseModalRace() {
-        props.setStateModalRace((prev: any) => ({...prev, elven: false}))
-    }
 
     return (
         <div className={classes.pageElvenRace}>
-            Elven
-            <button className={classes.closeButton} onClick={handleCloseModalRace}>Закрыть</button>
+            <div className={classes.overlayTopbar}>
+                <div className={classes.topbar}>
+                    <h1>Эльфы</h1>
+                </div>
+            </div>
+                <img className={classes.sideDecorationRight} src={Vine} alt="Vine" draggable="false"/>
+                <img className={classes.sideDecorationLeft} src={Vine} alt="Vine" draggable="false"/>
+            
         </div>
     )
 };

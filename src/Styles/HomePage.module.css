@@ -61,9 +61,9 @@
 
 .overlayBlockButtonLeft{
     width: 25%;
-    height: 70%;
+    height: 86%;
     position: absolute;
-    top: 20%;
+    top: 12.5%;
     left: 10%;
     background-color: rgba(72, 72, 72, 0.6);
     background-image: 
@@ -78,9 +78,9 @@
 
 .overlayBlockButtonRight{
     width: 25%;
-    height: 70%;
+    height: 86%;
     position: absolute;
-    top: 20%;
+    top: 12.5%;
     right: 10%;
     background-color: rgba(72, 72, 72, 0.6);
     background-image: 
@@ -104,84 +104,11 @@
     border-radius: 2vw;
 }
 
-.buttonRaces{
-    width: 20vw;
-    height: 4vw;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 50vw;
-    border: solid 0.2vw gray;
-    cursor: pointer;
-    background-color: rgba(0, 0, 0, 1);
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(200, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
-    font-size: 2.5vw;
-    font-family: "El Messiri";
-    font-weight: bold;
-    color: silver;
-    -webkit-text-stroke: 0.05vw black;
-    opacity: 1;
-}
-
-.buttonRaces:hover{
-    background-color: rgba(0, 0, 0, 1);
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgb(255, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);
-}
-
-.buttonFactions{
-    width: 20vw;
-    height: 4vw;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 50vw;
-    border: solid 0.2vw gray;
-    cursor: pointer;
-    background-color: rgba(0, 0, 0, 1);
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 158, 12, 1) 50%, rgba(0, 0, 0, 1) 100%);
-    font-size: 2.5vw;
-    font-family: "El Messiri";
-    font-weight: bold;
-    color: silver;
-    -webkit-text-stroke: 0.05vw black;
-}
-
-.buttonFactions:hover{
-    background-color: rgba(0, 0, 0, 1);
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 200, 12, 1) 50%, rgba(0, 0, 0, 1) 100%);
-}
-
-.buttonEvents{
-    width: 20vw;
-    height: 4vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 50vw;
-    border: solid 0.2vw gray;
-    cursor: pointer;
-    background-color: rgba(0, 0, 0, 1);
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(158, 118, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
-    font-size: 2.5vw;
-    font-family: "El Messiri";
-    font-weight: bold;
-    color: silver;
-    -webkit-text-stroke: 0.05vw black;
-}
-
-.buttonEvents:hover{
-    background-color: rgba(0, 0, 0, 1);
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgb(200, 151, 0) 50%, rgba(0, 0, 0, 1) 100%);
-}
-
 .overlayBlockText{
     width: 25%;
-    height: 70%;
+    height: 86%;
     position: absolute;
-    top: 20%;
+    top: 12.5%;
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(72, 72, 72, 0.6);
@@ -210,9 +137,188 @@
 
 .backgroundBlockText h1{
     font-size: 2vw;
+    margin: 2%;
 }
 
 .backgroundBlockText p{
     font-size: 1.2vw;
     margin: 2%;
+    margin-top: 0;
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+    z-index: 20;
+}
+
+.buttonRaces{
+    width: 20vw;
+    position: absolute;
+    top: 2.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2vw;
+    border: solid 0.2vw gray;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 1);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(200, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    font-size: 1.5vw;
+    font-family: "El Messiri";
+    font-weight: bold;
+    color: silver;
+    opacity: 1;
+    text-align: center;
+    margin: 0;
+}
+
+.buttonRaces h1{
+    margin: 0;
+    -webkit-text-stroke: 0.05vw black;
+}
+
+.buttonRaces:hover {
+    background-color: rgba(0, 0, 0, 1);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgb(255, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+.buttonRaces:hover .content{
+    max-height: 1500px;
+}
+
+.buttonFactions{
+    width: 20vw;
+    position: absolute;
+    top: 2.5%;
+    left: 50%;
+    border-radius: 2vw;
+    transform: translateX(-50%);
+    border: solid 0.2vw gray;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 158, 12, 0.7) 50%, rgba(0, 0, 0, 0.7) 100%);
+    font-size: 1.5vw;
+    font-family: "El Messiri";
+    font-weight: bold;
+    color: silver;
+    opacity: 1;
+    text-align: center;
+    margin: 0;
+}
+
+.buttonFactions h1{
+    -webkit-text-stroke: 0.05vw black;
+    margin: 0;
+}
+
+.buttonFactions:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 200, 12, 0.7) 50%, rgba(0, 0, 0, 0.7) 100%);
+}
+
+.buttonFactions:hover .content{
+    max-height: 2500px;
+}
+
+.buttonEvents{
+    width: 20vw;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2vw;
+    border: solid 0.2vw gray;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(158, 118, 0, 0.7) 50%, rgba(0, 0, 0, 0.7) 100%);
+    font-size: 1.5vw;
+    font-family: "El Messiri";
+    font-weight: bold;
+    color: silver;
+    opacity: 1;
+    text-align: center;
+    margin: 0;
+}
+
+.buttonEvents h1{
+    -webkit-text-stroke: 0.05vw black;
+    margin: 0;
+    font-size: 3vw;
+}
+
+.buttonEvents:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgb(200, 151, 0, 0.7) 50%, rgba(0, 0, 0, 0.7) 100%);
+}
+
+.buttonEvents:hover .content{
+    max-height: 450px;
+}
+
+.contentButton{
+    width: 20vw;
+    height: 4.5vw;
+    font-size: 1vw;
+    text-align: center;
+    line-height: 4.5vw;
+}
+
+.contentButton:hover{
+    color: goldenrod;
+    filter: drop-shadow( 0 0 0.2vw goldenrod);
+}
+
+.contentButton img{
+    width: 2.5vw;
+    float: left;
+    margin: 0;
+    margin-left: 5%;
+    margin-top: 5%;
+    filter: drop-shadow( 0 0 0.2vw black);
+}
+
+.pagesButton{
+    width: 20vw;
+    height: 4vw;
+    position: absolute;
+    top: 87.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2vw;
+    border: solid 0.2vw gray;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgb(0, 69, 158, 0.7) 50%, rgba(0, 0, 0, 0.7) 100%);
+    font-size: 1vw;
+    font-family: "El Messiri";
+    font-weight: bold;
+    color: silver;
+    opacity: 1;
+    text-align: center;
+    margin: 0;
+}
+
+.pagesButton h1{
+    -webkit-text-stroke: 0.05vw black;
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    transform: translateY(-50%);
+    width: 100%;
+    margin: 0;
+}
+
+.pagesButton:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 94, 218, 0.7) 50%, rgba(0, 0, 0, 0.7) 100%);
+}
+
+.pagesButton img{
+    width: 2.5vw;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    filter: drop-shadow( 0 0 0.2vw black);
 }

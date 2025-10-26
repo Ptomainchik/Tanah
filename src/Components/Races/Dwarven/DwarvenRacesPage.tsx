@@ -1,15 +1,18 @@
-import classes from "../../../Styles/DwarvenRaces.module.css";
+import classes from "../../../Styles/PagesBearPeaks.module.css";
+import Mountian from "../../../Images/BearPeaksImages/DecorationBearPeaks.png";
 
 export const DwarvenRacesPage = (props: any) => {
 
-    function handleCloseModalRace() {
-        props.setStateModalRace((prev: any) => ({...prev, dwarven: false}))
-    }
-
     return (
         <div className={classes.pageDwarvenRaces}>
-            Dwarven
-            <button className={classes.closeButton} onClick={handleCloseModalRace}>Закрыть</button>
+             <div className={classes.overlayTopbar}>
+                <div className={classes.topbar}>
+                    <h1>Гномы</h1>
+                </div>
+            </div>
+        
+                <img className={classes.sideDecorationRight} src={Mountian} alt="Mountian" draggable="false"/>
+                <img className={classes.sideDecorationLeft} src={Mountian} alt="Mountian" draggable="false"/>
         </div>
     )
 };
