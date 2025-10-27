@@ -1,8 +1,8 @@
 import { useNavigate } from "react-router";
-import classes from "../../Styles/HistoryPage.module.css";
+import classes from "../../Styles/EmptinessPage.module.css";
 import Chain from "../../Images/HomePageImages/Сhain.png";
 
-export const HistoryPage = () => {
+export const EmptinessPage = () => {
     const navigate = useNavigate();
 
     function handleFactionsPageTransition() {
@@ -10,10 +10,10 @@ export const HistoryPage = () => {
     };
 
     return (
-        <div className={classes.pageHistory}>
+        <div className={classes.pageEmptiness}>
             <div className={classes.overlayTopbar}>
                 <div className={classes.topbar}>
-                    <h1>История мира</h1>
+                    <h1>Пустота</h1>
                 </div>
             </div>
         

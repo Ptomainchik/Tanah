@@ -278,7 +278,7 @@
     filter: drop-shadow( 0 0 0.2vw black);
 }
 
-.pagesButton{
+.historyButton{
     width: 20vw;
     height: 4vw;
     position: absolute;
@@ -299,7 +299,7 @@
     margin: 0;
 }
 
-.pagesButton h1{
+.historyButton h1{
     -webkit-text-stroke: 0.05vw black;
     position: absolute;
     top: 50%;
@@ -309,12 +309,57 @@
     margin: 0;
 }
 
-.pagesButton:hover{
+.historyButton:hover{
     background-color: rgba(0, 0, 0, 0.7);
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 94, 218, 0.7) 50%, rgba(0, 0, 0, 0.7) 100%);
 }
 
-.pagesButton img{
+.historyButton img{
+    width: 2.5vw;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    filter: drop-shadow( 0 0 0.2vw black);
+}
+
+.emptinessButton{
+    width: 20vw;
+    height: 4vw;
+    position: absolute;
+    top: 87.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2vw;
+    border: solid 0.2vw gray;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(87, 39, 119, 0.7) 50%, rgba(0, 0, 0, 0.7) 100%);
+    font-size: 1vw;
+    font-family: "El Messiri";
+    font-weight: bold;
+    color: silver;
+    opacity: 1;
+    text-align: center;
+    margin: 0;
+}
+
+.emptinessButton h1{
+    -webkit-text-stroke: 0.05vw black;
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    transform: translateY(-50%);
+    width: 100%;
+    margin: 0;
+}
+
+.emptinessButton:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(126, 55, 173, 0.7) 50%, rgba(0, 0, 0, 0.7) 100%);
+}
+
+.emptinessButton img{
     width: 2.5vw;
     position: absolute;
     top: 50%;

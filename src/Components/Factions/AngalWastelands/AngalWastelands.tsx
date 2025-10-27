@@ -22,7 +22,7 @@ export const AngalWastelands = () => {
                 <img className={classes.sideDecorationLeft} src={Column} alt="Column" draggable="false"/>
 
             
-            <button className={classes.transitionButton} onClick={handleFactionsPageTransition}>Фракции</button>
+            <button className={classes.transitionButton} onClick={handleFactionsPageTransition}>Главная</button>
         </div>
     )
 };

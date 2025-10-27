@@ -1,8 +1,8 @@
-.pageHistory{
+.pageEmptiness{
     width: 100%;
     height: 100%;
     position: absolute;
-    background: darkblue;
+    background: rgb(87, 39, 119);
 }
 
 .overlayTopbar{

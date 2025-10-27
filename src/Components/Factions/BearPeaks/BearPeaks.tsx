@@ -21,7 +21,7 @@ export const BearPeaks = () => {
                 <img className={classes.sideDecorationRight} src={Mountian} alt="Mountian" draggable="false"/>
                 <img className={classes.sideDecorationLeft} src={Mountian} alt="Mountian" draggable="false"/>
             Dwarven Factions
-            <button className={classes.transitionButton} onClick={handleFactionsPageTransition}>Фракции</button>
+            <button className={classes.transitionButton} onClick={handleFactionsPageTransition}>Главная</button>
         </div>
     )
 };

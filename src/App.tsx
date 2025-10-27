@@ -12,7 +12,7 @@ import { OrcRacePage } from './Components/Races/Orc/OrcRacePage';
 import { HumanRacesPage } from './Components/Races/Human/HumanRacesPage';
 import { ElvenRacePage } from './Components/Races/Elven/ElvenRacePage';
 import { HistoryPage } from './Components/HistoryPage/HistoryPage';
-import { MapsPage } from './Components/Maps/MapsPage';
+import { EmptinessPage } from './Components/EmptinessPage/ EmptinessPage';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage/>}/>
         <Route path="history" element={<HistoryPage/>}/>
-        <Route path="maps" element={<MapsPage/>}/>
+        <Route path="emptiness" element={<EmptinessPage/>}/>
         <Route path="wastelands" element={<AngalWastelands/>}/>
         <Route path="bearpeaks" element={<BearPeaks/>}/>
         <Route path="blackforest" element={<BlackForest/>}/>

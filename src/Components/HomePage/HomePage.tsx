@@ -1,13 +1,21 @@
 import { useNavigate } from "react-router";
 import classes from "../../Styles/HomePage.module.css";
 import Logo from "../../Images/HomePageImages/LogoTanah.png";
-import Vine from "../../Images/HomePageImages/Vine.png";
-import CoatOfArmsOfWasteland from "../../Images/CoatsOfArms/CoatOfArmsOfWasteland.webp";
-import CoatOfArmsOfBearPeaks from "../../Images/CoatsOfArms/CoatOfArmsOfBearPeaks.webp";
-import CoatOfArmsEmpire from "../../Images/CoatsOfArms/CoatOfArmsEmpire.webp";
-import CoatOfArmsOfTheKingdomOfInmar from "../../Images/CoatsOfArms/CoatOfArmsOfTheKingdomOfInmar.webp";
-import CoatOfArmsOfTheConfederationOfTribes from "../../Images/CoatsOfArms/CoatOfArmsOfTheConfederationOfTribes.webp";
-import CoatOfArmsOfBlackForest from "../../Images/CoatsOfArms/CoatOfArmsOfBlackForest.webp";
+import Chain from "../../Images/HomePageImages/Сhain.png";
+import CoatOfArmsOfWasteland from "../../Images/Icons/CoatOfArmsOfWasteland.webp";
+import CoatOfArmsOfBearPeaks from "../../Images/Icons/CoatOfArmsOfBearPeaks.webp";
+import CoatOfArmsEmpire from "../../Images/Icons/CoatOfArmsEmpire.webp";
+import CoatOfArmsOfTheKingdomOfInmar from "../../Images/Icons/CoatOfArmsOfTheKingdomOfInmar.webp";
+import CoatOfArmsOfTheConfederationOfTribes from "../../Images/Icons/CoatOfArmsOfTheConfederationOfTribes.webp";
+import CoatOfArmsOfBlackForest from "../../Images/Icons/CoatOfArmsOfBlackForest.webp";
+import AngalRace from "../../Images/Icons/AngalRace.png";
+import HumanRace from "../../Images/Icons/HumanRace.png";
+import DwarvenRaces from "../../Images/Icons/DwarvenRaces.png";
+import OrcRace from "../../Images/Icons/OrcRace.png";
+import ElvenRace from "../../Images/Icons/ElvenRace.png";
+import Feather from "../../Images/Icons/Feather.png";
+import EmptyEyes from "../../Images/Icons/EmptyEyes.png";
+import Swords from "../../Images/Icons/Swords.png";
 
 export const HomePage = () => {
     const navigate = useNavigate();
@@ -16,8 +24,8 @@ export const HomePage = () => {
         if (id === "History") {
             navigate("/history")
         }
-        else if (id === "Maps") {
-            navigate("/maps")
+        else if (id === "Emptiness") {
+            navigate("/emptiness")
         }
         else if (id === "Races") {
             navigate("/races")
@@ -71,8 +79,8 @@ export const HomePage = () => {
                 </div>
             </div>
 
-                <img className={classes.sideDecorationRight} src={Vine} alt="Vine" draggable="false"/>
-                <img className={classes.sideDecorationLeft} src={Vine} alt="Vine" draggable="false"/>
+                <img className={classes.sideDecorationRight} src={Chain} alt="Chain" draggable="false"/>
+                <img className={classes.sideDecorationLeft} src={Chain} alt="Chain" draggable="false"/>
 
             <div className={classes.overlayBlockButtonLeft}>
                 <div className={classes.backgroundBlockButton}>
@@ -84,27 +92,27 @@ export const HomePage = () => {
                         <div className={classes.content}>
                             
                             <div id="Angals" className={classes.contentButton} onClick={() => {handleTransition("Angals")}}>
-                                <img src={CoatOfArmsOfWasteland} alt="CoatOfArmsOfWasteland" draggable="false"/>
+                                <img src={AngalRace} alt="AngalRace" draggable="false"/>
                                 Ангалы
                             </div>
 
                             <div id="Dwarven" className={classes.contentButton} onClick={() => {handleTransition("Dwarven")}}>
-                                <img src={CoatOfArmsOfWasteland} alt="CoatOfArmsOfWasteland" draggable="false"/>
+                                <img src={DwarvenRaces} alt="DwarvenRaces" draggable="false"/>
                                 Гномы
                             </div>
 
                             <div id="Elven" className={classes.contentButton} onClick={() => {handleTransition("Elven")}}>
-                                <img src={CoatOfArmsOfWasteland} alt="CoatOfArmsOfWasteland" draggable="false"/>
+                                <img src={ElvenRace} alt="ElvenRace" draggable="false"/>
                                 Эльфы
                             </div>
 
                             <div id="Humans" className={classes.contentButton} onClick={() => {handleTransition("Humans")}}>
-                                <img src={CoatOfArmsOfWasteland} alt="CoatOfArmsOfWasteland" draggable="false"/>
+                                <img src={HumanRace} alt="HumanRace" draggable="false"/>
                                 Люди
                             </div>
 
                             <div id="Orc" className={classes.contentButton} onClick={() => {handleTransition("Orc")}}>
-                                <img src={CoatOfArmsOfWasteland} alt="CoatOfArmsOfWasteland" draggable="false"/>
+                                <img src={OrcRace} alt="OrcRace" draggable="false"/>
                                 Орки
                             </div>
 
@@ -112,8 +120,8 @@ export const HomePage = () => {
 
                     </div>
 
-                        <button id="History" className={classes.pagesButton} onClick={() => {handleTransition("History")}}>
-                            <img src={CoatOfArmsOfBearPeaks} alt="CoatOfArmsOfBearPeaks" draggable="false"/>
+                        <button id="History" className={classes.historyButton} onClick={() => {handleTransition("History")}}>
+                            <img src={Feather} alt="Feather" draggable="false"/>
                             <h1>История мира</h1>
                         </button>
 
@@ -138,17 +146,17 @@ export const HomePage = () => {
                         <div className={classes.content}>
 
                             <div className={classes.contentButton} onClick={() => window.location.href = "https://ptomainchik.github.io/NorthTanah/"}>
-                                <img src={CoatOfArmsOfWasteland} alt="CoatOfArmsOfWasteland" draggable="false"/>
+                                <img src={Swords} alt="Swords" draggable="false"/>
                                 Север Танаха
                             </div>
 
                             <div className={classes.contentButton} onClick={() => window.location.href = "https://ptomainchik.github.io/PeopleOfTanah/"}>
-                                <img src={CoatOfArmsOfWasteland} alt="CoatOfArmsOfWasteland" draggable="false"/>
+                                <img src={Swords} alt="Swords" draggable="false"/>
                                 Люди Танаха
                             </div>
 
                             <div className={classes.contentButton} onClick={() => window.location.href = "https://ptomainchik.github.io/EmpireAndWasteland/"}>
-                                <img src={CoatOfArmsOfWasteland} alt="CoatOfArmsOfWasteland" draggable="false"/>
+                                <img src={Swords} alt="Swords" draggable="false"/>
                                 Империя и Пустоши
                             </div>
 
@@ -204,9 +212,9 @@ export const HomePage = () => {
                         </div>
                     </div>
 
-                    <button id="Maps" className={classes.pagesButton} onClick={() => {handleTransition("Maps")}}>
-                        <img src={CoatOfArmsOfBearPeaks} alt="CoatOfArmsOfBearPeaks" draggable="false"/>
-                        <h1>Карты мира</h1>
+                    <button id="Emptiness" className={classes.emptinessButton} onClick={() => {handleTransition("Emptiness")}}>
+                        <img src={EmptyEyes} alt="EmptyEyes" draggable="false"/>
+                        <h1>Пустота</h1>
                     </button>
 
 
