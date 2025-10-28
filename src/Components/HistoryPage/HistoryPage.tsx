@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router";
 import classes from "../../Styles/HistoryPage.module.css";
-import Chain from "../../Images/HomePageImages/Сhain.png";
+import Precipice from "../../Images/HistoryImages/DecorationHistory.png";
 
 export const HistoryPage = () => {
     const navigate = useNavigate();
@@ -17,8 +17,8 @@ export const HistoryPage = () => {
                 </div>
             </div>
         
-                <img className={classes.sideDecorationRight} src={Chain} alt="Chain" draggable="false"/>
-                <img className={classes.sideDecorationLeft} src={Chain} alt="Chain" draggable="false"/>
+                <img className={classes.sideDecorationRight} src={Precipice} alt="Precipice" draggable="false"/>
+                <img className={classes.sideDecorationLeft} src={Precipice} alt="Precipice" draggable="false"/>
             <button className={classes.transitionButton} onClick={handleFactionsPageTransition}>Главная</button>
         </div>
     )

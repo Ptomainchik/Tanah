@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router";
 import classes from "../../Styles/HomePage.module.css";
 import Logo from "../../Images/HomePageImages/LogoTanah.png";
-import Chain from "../../Images/HomePageImages/Сhain.png";
+import Statue from "../../Images/HomePageImages/DecorationHomePage.png";
 import CoatOfArmsOfWasteland from "../../Images/Icons/CoatOfArmsOfWasteland.webp";
 import CoatOfArmsOfBearPeaks from "../../Images/Icons/CoatOfArmsOfBearPeaks.webp";
 import CoatOfArmsEmpire from "../../Images/Icons/CoatOfArmsEmpire.webp";
@@ -79,8 +79,8 @@ export const HomePage = () => {
                 </div>
             </div>
 
-                <img className={classes.sideDecorationRight} src={Chain} alt="Chain" draggable="false"/>
-                <img className={classes.sideDecorationLeft} src={Chain} alt="Chain" draggable="false"/>
+                <img className={classes.sideDecorationRight} src={Statue} alt="Statue" draggable="false"/>
+                <img className={classes.sideDecorationLeft} src={Statue} alt="Statue" draggable="false"/>
 
             <div className={classes.overlayBlockButtonLeft}>
                 <div className={classes.backgroundBlockButton}>
@@ -132,14 +132,16 @@ export const HomePage = () => {
             <div className={classes.overlayBlockText}>
 
                 <div className={classes.backgroundBlockText}>
-
-                    <h1>Мир Танаха</h1>
+                    <div>
+                        <h1>Мир Танаха</h1>
 
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque doloribus voluptates consequatur aliquam vero assumenda rem adipisci. 
                         Distinctio, quaerat architecto omnis,
                          obcaecati neque ratione blanditiis quo quia, fugit molestias sed!
                     </p>
+                    </div>
+                    
 
                     <div className={classes.buttonEvents}>
                         <h1>События</h1>

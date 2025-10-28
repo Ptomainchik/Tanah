@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router";
 import classes from "../../Styles/EmptinessPage.module.css";
-import Chain from "../../Images/HomePageImages/Сhain.png";
+import Chain from "../../Images/EptinessImages/DecorationEmptiness.png";
 
 export const EmptinessPage = () => {
     const navigate = useNavigate();

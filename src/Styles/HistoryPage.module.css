@@ -2,7 +2,8 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    background: darkblue;
+    background: url(../Images/Textures/BackgroundBlockHistory.jpg) no-repeat;
+    background-size: cover;
 }
 
 .overlayTopbar{
@@ -12,12 +13,12 @@
     top: 0;
     background-color: rgba(72, 72, 72, 0.6);
     background-image: 
-        linear-gradient(225deg, rgba(72, 72, 72) 0%,
-                                rgba(160, 160, 160) 20%, 
-                                rgba(72, 72, 72) 40%, 
-                                rgba(160, 160, 160) 60%, 
-                                rgba(72, 72, 72) 80%, 
-                                rgba(160, 160, 160) 100%);
+        linear-gradient(225deg, rgba(72, 72, 72, 0.6) 0%,
+                                rgba(160, 160, 160, 0.6) 20%, 
+                                rgba(72, 72, 72, 0.6) 40%, 
+                                rgba(160, 160, 160, 0.6) 60%, 
+                                rgba(72, 72, 72, 0.6) 80%, 
+                                rgba(160, 160, 160, 0.6) 100%);
 }
 
 .topbar{
