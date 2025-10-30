@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router";
 import classes from "../../../Styles/PagesBlackForest.module.css";
 import Tree from "../../../Images/BlackForestImages/DecorationBlackForest.png";
+import Star from "../../../Images/HomePageImages/Star.png";
 
 export const BlackForest = () => {
     
@@ -13,6 +14,7 @@ export const BlackForest = () => {
     return (
         <div className={classes.pageBlackForest}>
             <div className={classes.overlayTopbar}>
+                <img className={classes.star} src={Star} alt="Star" draggable="false"/>
                 <div className={classes.topbar}>
                     <h1>Чёрный лес</h1>
                 </div>

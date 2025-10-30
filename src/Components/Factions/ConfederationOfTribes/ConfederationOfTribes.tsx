@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router";
 import classes from "../../../Styles/PagesConfederationAndInmar.module.css";
 import Palm from "../../../Images/ConfederationImages/DecorationConfederation.png";
+import Star from "../../../Images/HomePageImages/Star.png";
 
 export const ConfederationOfTribes = () => {
     
@@ -13,6 +14,7 @@ export const ConfederationOfTribes = () => {
     return (
         <div className={classes.pageConfederationOfTribes}>
             <div className={classes.overlayTopbar}>
+                <img className={classes.star} src={Star} alt="Star" draggable="false"/>
                 <div className={classes.topbar}>
                     <h1>Конфедерация племён</h1>
                 </div>

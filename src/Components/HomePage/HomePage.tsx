@@ -16,6 +16,7 @@ import ElvenRace from "../../Images/Icons/ElvenRace.png";
 import Feather from "../../Images/Icons/Feather.png";
 import EmptyEyes from "../../Images/Icons/EmptyEyes.png";
 import Swords from "../../Images/Icons/Swords.png";
+import Star from "../../Images/HomePageImages/Star.png";
 
 export const HomePage = () => {
     const navigate = useNavigate();
@@ -70,10 +71,11 @@ export const HomePage = () => {
             navigate("/confederation");
         }
     };
-
+   
     return (
         <div className={classes.homePage}>
             <div className={classes.overlayTopbar}>
+                <img className={classes.star} src={Star} alt="Star" draggable="false"/>
                 <div className={classes.topbar}>
                     <img className={classes.logo} src={Logo} alt="Logo" draggable="false"/>
                 </div>

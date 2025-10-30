@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router";
 import classes from "../../../Styles/PagesEmpireMarah.module.css";
 import Vine from "../../../Images/EmpireImages/DecorationEmpire.png";
+import Star from "../../../Images/HomePageImages/Star.png";
 
 export const EmpireMarah = () => {
     
@@ -13,6 +14,7 @@ export const EmpireMarah = () => {
     return (
         <div className={classes.pageEmpireMarah}>
             <div className={classes.overlayTopbar}>
+                <img className={classes.star} src={Star} alt="Star" draggable="false"/>
                 <div className={classes.topbar}>
                     <h1>Империя Марах</h1>
                 </div>

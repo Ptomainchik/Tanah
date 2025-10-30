@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router";
 import classes from "../../../Styles/PagesWastelands.module.css";
 import Column from "../../../Images/WastelandImages/DecorationWasteland.png";
+import Star from "../../../Images/HomePageImages/Star.png";
 
 export const AngalWastelands = () => {
     
@@ -13,6 +14,7 @@ export const AngalWastelands = () => {
     return (
         <div className={classes.pageAngalWastelands}>
             <div className={classes.overlayTopbar}>
+                <img className={classes.star} src={Star} alt="Star" draggable="false"/>
                 <div className={classes.topbar}>
                     <h1>Пустоши ангалов</h1>
                 </div>

@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router";
 import classes from "../../../Styles/PagesBearPeaks.module.css";
 import Mountian from "../../../Images/BearPeaksImages/DecorationBearPeaks.png";
+import Star from "../../../Images/HomePageImages/Star.png";
 
 export const BearPeaks = () => {
     
@@ -13,6 +14,7 @@ export const BearPeaks = () => {
     return (
         <div className={classes.pageBearPeaks}>
             <div className={classes.overlayTopbar}>
+                <img className={classes.star} src={Star} alt="Star" draggable="false"/>
                 <div className={classes.topbar}>
                     <h1>Медвежьи вершины</h1>
                 </div>

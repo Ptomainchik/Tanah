@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router";
 import classes from "../../../Styles/PagesConfederationAndInmar.module.css";
 import Tower from "../../../Images/InmarImages/DecorationInmar.png";
+import Star from "../../../Images/HomePageImages/Star.png";
 
 export const KingdomInmar = () => {
     
@@ -13,6 +14,7 @@ export const KingdomInmar = () => {
     return (
         <div className={classes.pageKingdomInmar}>
              <div className={classes.overlayTopbar}>
+                <img className={classes.star} src={Star} alt="Star" draggable="false"/>
                 <div className={classes.topbar}>
                     <h1>Королевство Инмар</h1>
                 </div>
