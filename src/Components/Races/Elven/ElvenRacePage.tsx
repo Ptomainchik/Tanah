@@ -1,4 +1,4 @@
-import classes from "../../../Styles/PagesEmpireMarah.module.css";
+import classes from "../../../Styles/Pages.module.css";
 import Vine from "../../../Images/EmpireImages/DecorationEmpire.png";
 import Star from "../../../Images/HomePageImages/Star.png";
 import { useNavigate } from "react-router";
@@ -12,7 +12,7 @@ export const ElvenRacePage = (props: any) => {
     };
 
     return (
-        <div className={classes.pageElvenRace}>
+        <div className={classes.pageElven}>
             <div className={classes.overlayTopbar}>
                 <img className={classes.star} src={Star} alt="Star" draggable="false"/>
                 <div className={classes.topbar}>
@@ -20,24 +20,28 @@ export const ElvenRacePage = (props: any) => {
                 </div>
             </div>
 
-            <div className={classes.overlayBlockContentRace}>
-                <div className={classes.blockContentRace}>
-                    <h1 className={classes.headingBlockContentRace1}>Эльфы</h1>
-                    <p className={classes.textBlockContentRace1}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Debitis nemo velit ullam dolore 
-                        repellendus cumque earum dolores quae odio et distinctio 
-                        suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipit tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudiandae, inventore laboriosam perferendis sed doloribus?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
-                    </p>
+            <div className={classes.overlayBlockContent}>
+                <div className={classes.blockContentEmpire}>
+                    <div className={classes.contentScrollRace}>
+                        <h1>Эльфы</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipit tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudiandae, inventore laboriosam perferendis sed doloribus?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
+                        </p>
+                    </div>
                 </div>
             </div>
 
                 <img className={classes.sideDecorationRight} src={Vine} alt="Vine" draggable="false"/>
                 <img className={classes.sideDecorationLeft} src={Vine} alt="Vine" draggable="false"/>
+                
                 <button className={classes.transitionButton} onClick={handleFactionsPageTransition}>Главная</button>
+       
         </div>
     )
 };
