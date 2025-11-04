@@ -247,7 +247,7 @@
     cursor: pointer;
     background: 
         linear-gradient(
-            180deg, 
+            225deg, 
             rgba(200, 200, 200, 0.4) 0%, 
             rgba(50, 50, 50, 0.4) 50%, 
             rgba(200, 200, 200, 0.4) 100%
@@ -268,7 +268,7 @@
 .transitionButton:hover {
     background: 
         linear-gradient(
-            180deg, 
+            225deg, 
             rgba(200, 200, 200, 0.4) 0%, 
             rgba(100, 100, 100, 0.4) 50%, 
             rgba(200, 200, 200, 0.4) 100%
@@ -625,35 +625,38 @@
     text-align: center;
     overflow-y: auto;
     overflow-x: hidden;
-
+    mask-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        white 3%,
+        white 97%,
+        transparent 100%
+    );
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        white 3%,
+        white 97%,
+        transparent 100%
+    );
     &::-webkit-scrollbar {
         width: 12px;
     }
-  
     &::-webkit-scrollbar-track {
-        background: rgba(72, 72, 72, 0.3);
+        background: rgba(150, 150, 150, 0.3);
         border-radius: 6px;
-        margin: 10px 0;
+        margin: 20px 0;
     }
-    
     &::-webkit-scrollbar-thumb {
         background: linear-gradient(225deg, 
                 rgba(72, 72, 72, 0.6) 0%,
-                rgba(160, 160, 160, 0.6) 100%);
+                rgba(190, 190, 190, 0.6) 50%,
+                rgba(72, 72, 72, 0.6) 100%);
         border-radius: 6px;
     }
-    
-    &::-webkit-scrollbar-thumb:hover {
-        background: linear-gradient(225deg, 
-                rgba(72, 72, 72, 0.6) 0%,
-                rgba(160, 160, 160, 0.6) 100%);
-                
-    }
-    
     &::-webkit-scrollbar-button {
         display: none;
     }
-    
 }
 
 .contentImageFactionHorizontally{
@@ -692,35 +695,38 @@
     text-align: center;
     overflow-y: auto;
     overflow-x: hidden;
-
+    mask-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        white 3%,
+        white 97%,
+        transparent 100%
+    );
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        white 3%,
+        white 97%,
+        transparent 100%
+    );
     &::-webkit-scrollbar {
         width: 12px;
     }
-  
     &::-webkit-scrollbar-track {
         background: rgba(72, 72, 72, 0.3);
         border-radius: 6px;
-        margin: 10px 0;
+        margin: 20px 0;
     }
-    
     &::-webkit-scrollbar-thumb {
         background: linear-gradient(225deg, 
                 rgba(72, 72, 72, 0.6) 0%,
-                rgba(160, 160, 160, 0.6) 100%);
+                rgba(190, 190, 190, 0.6) 50%,
+                rgba(72, 72, 72, 0.6) 100%);
         border-radius: 6px;
     }
-    
-    &::-webkit-scrollbar-thumb:hover {
-        background: linear-gradient(225deg, 
-                rgba(72, 72, 72, 0.6) 0%,
-                rgba(160, 160, 160, 0.6) 100%);
-                
-    }
-    
     &::-webkit-scrollbar-button {
         display: none;
     }
-    
 }
 
 .contentScrollRace h1{
@@ -736,4 +742,44 @@
     width: 98%;
     font-size: 2vw;
     font-family: "Pangolin";
+    float: right;
+}
+
+.imageRace1{
+    width: 18vw;
+    margin-left: 2%;
+    margin-right: 2%;  
+    margin-top: 2%;
+    border: solid 0.2vw gray; 
+    border-radius: 2vw;
+    float: left;
+}
+
+.imageRace2{
+    width: 18vw;
+    margin-left: 2%;
+    margin-right: 2%;  
+    margin-top: 2%;
+    border: solid 0.2vw gray; 
+    border-radius: 2vw;
+    float: right;
+}
+
+.imageRace3{
+    width: 18vw;
+    margin-left: 2%;
+    margin-right: 2%;  
+    margin-top: 2%;
+    border: solid 0.2vw gray; 
+    border-radius: 2vw;
+    float: left;
+}
+
+.imageRace4{
+    width: 55vw;
+    margin-left: 2%;
+    margin-right: 2%;  
+    margin-top: 2%;
+    border: solid 0.2vw gray; 
+    border-radius: 2vw;
 }
