@@ -2,6 +2,10 @@ import classes from "../../../Styles/Pages.module.css";
 import Vine from "../../../Images/EmpireImages/DecorationEmpire.png";
 import Star from "../../../Images/HomePageImages/Star.png";
 import { useNavigate } from "react-router";
+import ElvenRace1 from "../../../Images/EmpireImages/ElvenRaceWoman.jpg";
+import ElvenRace2 from "../../../Images/EmpireImages/ElvenRaceMan.jpg";
+import ElvenRace3 from "../../../Images/EmpireImages/ElvenRaceElder.jpg";
+import ElvenRace4 from "../../../Images/EmpireImages/ElvenRaceOldMan.jpg";
  
 export const ElvenRacePage = (props: any) => {
 
@@ -25,13 +29,51 @@ export const ElvenRacePage = (props: any) => {
                     <div className={classes.contentScrollRace}>
                         <h1>Эльфы</h1>
                         <p>
+                            <img className={classes.imageRace1} src={ElvenRace1} alt="ElvenRace1" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
                             suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipit tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudiandae, inventore laboriosam perferendis sed doloribus?
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis 
+                            doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus 
+                            natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipit tempora natus, 
+                            rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudiandae, 
+                            inventore laboriosam perferendis sed doloribus?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, 
+                            veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
+                            <img className={classes.imageRace2} src={ElvenRace2} alt="ElvenRace2" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis 
+                            doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus 
+                            natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipit tempora natus, 
+                            rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudiandae, 
+                            inventore laboriosam perferendis sed doloribus?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, 
+                            veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
+                            <img className={classes.imageRace3} src={ElvenRace3} alt="ElvenRace3" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis 
+                            doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus 
+                            natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipit tempora natus, 
+                            rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudiandae, 
+                            inventore laboriosam perferendis sed doloribus?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, 
+                            veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
+                            <img className={classes.imageRace4} src={ElvenRace4} alt="ElvenRace4" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis 
                         </p>
                     </div>
                 </div>
