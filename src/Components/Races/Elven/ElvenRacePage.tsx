@@ -7,7 +7,7 @@ import ElvenRace2 from "../../../Images/EmpireImages/ElvenRaceMan.jpg";
 import ElvenRace3 from "../../../Images/EmpireImages/ElvenRaceElder.jpg";
 import ElvenRace4 from "../../../Images/EmpireImages/ElvenRaceOldMan.jpg";
  
-export const ElvenRacePage = (props: any) => {
+export const ElvenRacePage = () => {
 
     const navigate = useNavigate();
 

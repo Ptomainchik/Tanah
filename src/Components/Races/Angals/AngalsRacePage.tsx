@@ -7,7 +7,7 @@ import AngalRace2 from "../../../Images/WastelandImages/AngalRaceMan.jpg";
 import AngalRace3 from "../../../Images/WastelandImages/AngalRaceAngalit.jpg";
 import AngalRace4 from "../../../Images/WastelandImages/AngalRaceAngalim.jpg";
 
-export const AngalsRacePage = (props: any) => {
+export const AngalsRacePage = () => {
 
     const navigate = useNavigate();
 
