@@ -659,19 +659,11 @@
     }
 }
 
-.contentImageFactionHorizontally{
-    width: 80%;
-    margin: 0;
-    border-radius: 2vw;
-    border: 0.2vw solid rgba(128, 128, 128, 0.35);
-}
-
 .contentScrollFaction h1{
     width: 100%;
     font-size: 2.5vw;
     font-family: "El messiri";
     margin: 0;
-    margin-bottom: 2%;
     color: silver;
     text-align: center;
 }
@@ -680,6 +672,7 @@
     width: 98%;
     font-size: 2vw;
     font-family: "Pangolin";
+    float: left;
 }
 
 .contentScrollRace{
@@ -745,7 +738,7 @@
     float: right;
 }
 
-.imageRace1{
+.imageVerticalLeft{
     width: 18vw;
     margin-left: 2%;
     margin-right: 2%;  
@@ -755,7 +748,7 @@
     float: left;
 }
 
-.imageRace2{
+.imageVerticalRight{
     width: 18vw;
     margin-left: 2%;
     margin-right: 2%;  
@@ -765,18 +758,8 @@
     float: right;
 }
 
-.imageRace3{
-    width: 18vw;
-    margin-left: 2%;
-    margin-right: 2%;  
-    margin-top: 2%;
-    border: solid 0.2vw gray; 
-    border-radius: 2vw;
-    float: left;
-}
-
-.imageRace4{
-    width: 55vw;
+.imageHorizontally{
+    width: 94%;
     margin-left: 2%;
     margin-right: 2%;  
     margin-top: 2%;

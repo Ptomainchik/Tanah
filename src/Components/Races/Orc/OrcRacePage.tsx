@@ -29,7 +29,7 @@ export const OrcRacePage = () => {
                     <div className={classes.contentScrollRace}>
                         <h1>Орки</h1>
                         <p>
-                            <img className={classes.imageRace1} src={OrcRace1} alt="OrcRace1" draggable="false"/>
+                            <img className={classes.imageVerticalLeft} src={OrcRace1} alt="OrcRace1" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
@@ -42,7 +42,7 @@ export const OrcRacePage = () => {
                             inventore laboriosam perferendis sed doloribus?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, 
                             veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
-                            <img className={classes.imageRace2} src={OrcRace2} alt="OrcRace2" draggable="false"/>
+                            <img className={classes.imageVerticalRight} src={OrcRace2} alt="OrcRace2" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
@@ -55,7 +55,7 @@ export const OrcRacePage = () => {
                             inventore laboriosam perferendis sed doloribus?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, 
                             veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
-                            <img className={classes.imageRace4} src={OrcRace3} alt="OrcRace3" draggable="false"/>
+                            <img className={classes.imageHorizontally} src={OrcRace3} alt="OrcRace3" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
@@ -68,7 +68,7 @@ export const OrcRacePage = () => {
                             inventore laboriosam perferendis sed doloribus?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, 
                             veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
-                            <img className={classes.imageRace4} src={OrcRace4} alt="OrcRace4" draggable="false"/>
+                            <img className={classes.imageHorizontally} src={OrcRace4} alt="OrcRace4" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 

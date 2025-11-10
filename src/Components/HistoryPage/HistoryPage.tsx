@@ -25,9 +25,9 @@ export const HistoryPage = () => {
                 <div className={classes.blockContentHistory}>
                     <img className={classes.imageBlockContentHistory} src={Feather} alt="Feather" draggable="false"/>
                     <div className={classes.contentScrollFaction}>  
-                        <h1>История мира</h1>
-                        <img className={classes.contentImageFactionHorizontally} src={HistoryImage1} alt="HistoryImage1" draggable="false"/>
                         <p>
+                            <h1>История мира</h1>
+                            <img className={classes.imageHorizontally} src={HistoryImage1} alt="HistoryImage1" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 

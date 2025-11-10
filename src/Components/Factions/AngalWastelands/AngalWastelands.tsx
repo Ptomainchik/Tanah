@@ -4,6 +4,11 @@ import Column from "../../../Images/WastelandImages/DecorationWasteland.png";
 import Star from "../../../Images/HomePageImages/Star.png";
 import CoatOfArms from "../../../Images/Icons/CoatOfArmsOfWasteland.webp";
 import WastelandImage1 from "../../../Images/WastelandImages/BackgroundPageWasteland.jpg";
+import WastelandImage2 from "../../../Images/WastelandImages/AngalsMother.jpg";
+import WastelandImage3 from "../../../Images/WastelandImages/OuterWastelands.jpg";
+import WastelandImage4 from "../../../Images/WastelandImages/CentralWastelands.jpg";
+import WastelandImage5 from "../../../Images/WastelandImages/InlandWastelands.jpg";
+import WastelandImage6 from "../../../Images/WastelandImages/RegionMother.jpg";
 
 export const AngalWastelands = () => {
     
@@ -26,16 +31,62 @@ export const AngalWastelands = () => {
                 <div className={classes.blockContentWasteland}>
                     <img className={classes.imageBlockContentWasteland} src={CoatOfArms} alt="CoatOfArms" draggable="false"/>
                     <div className={classes.contentScrollFaction}>  
-                        <h1>Пустоши ангалов</h1>
-                        <img className={classes.contentImageFactionHorizontally} src={WastelandImage1} alt="WastelandImage1" draggable="false"/>
                         <p>
+                            <h1>Пустоши ангалов</h1>
+                            <img className={classes.imageHorizontally} src={WastelandImage1} alt="WastelandImage1" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
                             suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipit tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudiandae, inventore laboriosam perferendis sed doloribus?
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Earum, quasi perspiciatis doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi n
+                            ecessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            <img className={classes.imageHorizontally} src={WastelandImage2} alt="WastelandImage2" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Earum, quasi perspiciatis doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi n
+                            ecessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            <img className={classes.imageHorizontally} src={WastelandImage3} alt="WastelandImage3" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Earum, quasi perspiciatis doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi n
+                            ecessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            <img className={classes.imageHorizontally} src={WastelandImage4} alt="WastelandImage4" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Earum, quasi perspiciatis doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi n
+                            ecessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            <img className={classes.imageHorizontally} src={WastelandImage5} alt="WastelandImage5" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Earum, quasi perspiciatis doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi n
+                            ecessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            <img className={classes.imageHorizontally} src={WastelandImage6} alt="WastelandImage6" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Earum, quasi perspiciatis doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi n
+                            ecessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         </p>
                     </div>
                 </div>

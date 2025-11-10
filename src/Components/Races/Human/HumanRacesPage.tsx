@@ -32,7 +32,7 @@ export const HumanRacesPage = () => {
                     <div className={classes.contentScrollRace}>
                         <h1>Люди</h1>
                         <p>
-                            <img className={classes.imageRace1} src={HumanRace1} alt="HumanRace1" draggable="false"/>
+                            <img className={classes.imageVerticalLeft} src={HumanRace1} alt="HumanRace1" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
@@ -45,7 +45,7 @@ export const HumanRacesPage = () => {
                             inventore laboriosam perferendis sed doloribus?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, 
                             veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
-                            <img className={classes.imageRace2} src={HumanRace2} alt="HumanRace2" draggable="false"/>
+                            <img className={classes.imageVerticalRight} src={HumanRace2} alt="HumanRace2" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
@@ -58,7 +58,7 @@ export const HumanRacesPage = () => {
                             inventore laboriosam perferendis sed doloribus?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, 
                             veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
-                            <img className={classes.imageRace3} src={HumanRace3} alt="HumanRace3" draggable="false"/>
+                            <img className={classes.imageVerticalLeft} src={HumanRace3} alt="HumanRace3" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
@@ -71,13 +71,13 @@ export const HumanRacesPage = () => {
                             inventore laboriosam perferendis sed doloribus?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, 
                             veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
-                            <img className={classes.imageRace4} src={HumanRace4} alt="HumanRace4" draggable="false"/>
+                            <img className={classes.imageHorizontally} src={HumanRace4} alt="HumanRace4" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
                             suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis
-                            <img className={classes.imageRace4} src={HumanRace5} alt="HumanRace5" draggable="false"/>
+                            <img className={classes.imageHorizontally} src={HumanRace5} alt="HumanRace5" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 

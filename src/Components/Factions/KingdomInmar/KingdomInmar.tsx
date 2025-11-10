@@ -4,6 +4,14 @@ import Tower from "../../../Images/InmarImages/DecorationInmar.png";
 import Star from "../../../Images/HomePageImages/Star.png";
 import CoatOfArms from "../../../Images/Icons/CoatOfArmsOfTheKingdomOfInmar.webp";
 import InmarImage1 from "../../../Images/InmarImages/BackgroundPageInmar.jpg";
+import InmarImage2 from "../../../Images/InmarImages/KingOfInmar.jpg";
+import InmarImage3 from "../../../Images/InmarImages/North.jpg";
+import InmarImage4 from "../../../Images/InmarImages/Center.jpg";
+import InmarImage5 from "../../../Images/InmarImages/West.jpg";
+import InmarImage6 from "../../../Images/InmarImages/East.jpg";
+import InmarImage7 from "../../../Images/InmarImages/Southwest.jpg";
+import InmarImage8 from "../../../Images/InmarImages/Southeast.jpg";
+
 
 export const KingdomInmar = () => {
     
@@ -25,17 +33,97 @@ export const KingdomInmar = () => {
             <div className={classes.overlayBlockContent}>
                 <div className={classes.blockContentInmar}>
                     <img className={classes.imageBlockContentHuman} src={CoatOfArms} alt="CoatOfArms" draggable="false"/>
-                    <div className={classes.contentScrollFaction}>  
-                        <h1>Королевство Инмар</h1>
-                        <img className={classes.contentImageFactionHorizontally} src={InmarImage1} alt="InmarImage1" draggable="false"/>
+                    <div className={classes.contentScrollFaction}>   
                         <p>
+                            <h1>Королевство Инмар</h1>
+                            <img className={classes.imageHorizontally} src={InmarImage1} alt="InmarImage1" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
                             suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipit tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudiandae, inventore laboriosam perferendis sed doloribus?
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque
+                            , dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora!
+                            Itaque, quia. Soluta!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipi
+                            t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
+                            e, inventore laboriosam perferendis sed doloribus?
+                            <img className={classes.imageHorizontally} src={InmarImage2} alt="InmarImage2" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque
+                            , dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora!
+                            Itaque, quia. Soluta!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipi
+                            t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
+                            e, inventore laboriosam perferendis sed doloribus?
+                            <img className={classes.imageHorizontally} src={InmarImage3} alt="InmarImage3" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque
+                            , dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora!
+                            Itaque, quia. Soluta!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipi
+                            t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
+                            e, inventore laboriosam perferendis sed doloribus?
+                            <img className={classes.imageHorizontally} src={InmarImage4} alt="InmarImage4" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque
+                            , dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora!
+                            Itaque, quia. Soluta!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipi
+                            t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
+                            e, inventore laboriosam perferendis sed doloribus?
+                            <img className={classes.imageHorizontally} src={InmarImage5} alt="InmarImage5" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque
+                            , dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora!
+                            Itaque, quia. Soluta!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipi
+                            t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
+                            e, inventore laboriosam perferendis sed doloribus?
+                            <img className={classes.imageHorizontally} src={InmarImage6} alt="InmarImage6" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque
+                            , dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora!
+                            Itaque, quia. Soluta!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipi
+                            t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
+                            e, inventore laboriosam perferendis sed doloribus?
+                            <img className={classes.imageHorizontally} src={InmarImage7} alt="InmarImage7" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque
+                            , dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora!
+                            Itaque, quia. Soluta!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipi
+                            t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
+                            e, inventore laboriosam perferendis sed doloribus?
+                            <img className={classes.imageHorizontally} src={InmarImage8} alt="InmarImage8" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque
+                            , dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora!
+                            Itaque, quia. Soluta!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipi
+                            t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
+                            e, inventore laboriosam perferendis sed doloribus?
                         </p>
                     </div>
                 </div>

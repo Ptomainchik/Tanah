@@ -4,6 +4,10 @@ import Tree from "../../../Images/BlackForestImages/DecorationBlackForest.png";
 import Star from "../../../Images/HomePageImages/Star.png";
 import CoatOfArms from "../../../Images/Icons/CoatOfArmsOfBlackForest.webp";
 import BlackForestImage1 from "../../../Images/BlackForestImages/BackgroundPageBlackForest.jpg";
+import BlackForestImage2 from "../../../Images/BlackForestImages/FirstGuardianOfSpirits.jpg";
+import BlackForestImage3 from "../../../Images/BlackForestImages/LeaderOfTheBandits.jpg";
+import BlackForestImage4 from "../../../Images/BlackForestImages/SeniorHunter.jpg";
+import BlackForestImage5 from "../../../Images/BlackForestImages/Brigadier.jpg";
 
 export const BlackForest = () => {
     
@@ -26,16 +30,44 @@ export const BlackForest = () => {
                 <div className={classes.blockContentBlackForest}>
                     <img className={classes.imageBlockContentBlackForest} src={CoatOfArms} alt="CoatOfArms" draggable="false"/>
                     <div className={classes.contentScrollFaction}>  
-                        <h1>Чёрный лес</h1>
-                        <img className={classes.contentImageFactionHorizontally} src={BlackForestImage1} alt="BlackForestImage1" draggable="false"/>
                         <p>
+                            <h1>Чёрный лес</h1>
+                            <img className={classes.imageHorizontally} src={BlackForestImage1} alt="BlackForestImage1" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
                             suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipit tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudiandae, inventore laboriosam perferendis sed doloribus?
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
+                            dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            <img className={classes.imageVerticalLeft} src={BlackForestImage2} alt="BlackForestImage2" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
+                            dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            <img className={classes.imageVerticalRight} src={BlackForestImage3} alt="BlackForestImage3" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
+                            dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            <img className={classes.imageVerticalLeft} src={BlackForestImage4} alt="BlackForestImage4" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
+                            dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            <img className={classes.imageVerticalRight} src={BlackForestImage5} alt="BlackForestImage5" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
+                            dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            
                         </p>
                     </div>
                 </div>

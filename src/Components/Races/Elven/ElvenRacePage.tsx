@@ -29,7 +29,7 @@ export const ElvenRacePage = () => {
                     <div className={classes.contentScrollRace}>
                         <h1>Эльфы</h1>
                         <p>
-                            <img className={classes.imageRace1} src={ElvenRace1} alt="ElvenRace1" draggable="false"/>
+                            <img className={classes.imageVerticalLeft} src={ElvenRace1} alt="ElvenRace1" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
@@ -42,7 +42,7 @@ export const ElvenRacePage = () => {
                             inventore laboriosam perferendis sed doloribus?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, 
                             veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
-                            <img className={classes.imageRace2} src={ElvenRace2} alt="ElvenRace2" draggable="false"/>
+                            <img className={classes.imageVerticalRight} src={ElvenRace2} alt="ElvenRace2" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
@@ -55,7 +55,7 @@ export const ElvenRacePage = () => {
                             inventore laboriosam perferendis sed doloribus?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, 
                             veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
-                            <img className={classes.imageRace3} src={ElvenRace3} alt="ElvenRace3" draggable="false"/>
+                            <img className={classes.imageVerticalLeft} src={ElvenRace3} alt="ElvenRace3" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
@@ -68,7 +68,7 @@ export const ElvenRacePage = () => {
                             inventore laboriosam perferendis sed doloribus?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, 
                             veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
-                            <img className={classes.imageRace4} src={ElvenRace4} alt="ElvenRace4" draggable="false"/>
+                            <img className={classes.imageHorizontally} src={ElvenRace4} alt="ElvenRace4" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 

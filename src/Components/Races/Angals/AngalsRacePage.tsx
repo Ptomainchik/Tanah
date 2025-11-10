@@ -29,7 +29,7 @@ export const AngalsRacePage = () => {
                     <div className={classes.contentScrollRace}>
                         <h1>Ангалы</h1>
                         <p>
-                            <img className={classes.imageRace1} src={AngalRace1} alt="AngalRace1" draggable="false"/>
+                            <img className={classes.imageVerticalLeft} src={AngalRace1} alt="AngalRace1" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
@@ -42,7 +42,7 @@ export const AngalsRacePage = () => {
                             inventore laboriosam perferendis sed doloribus?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, 
                             veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
-                            <img className={classes.imageRace2} src={AngalRace2} alt="AngalRace2" draggable="false"/>
+                            <img className={classes.imageVerticalRight} src={AngalRace2} alt="AngalRace2" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
@@ -55,7 +55,7 @@ export const AngalsRacePage = () => {
                             inventore laboriosam perferendis sed doloribus?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, 
                             veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
-                            <img className={classes.imageRace3} src={AngalRace3} alt="AngalRace3" draggable="false"/>
+                            <img className={classes.imageVerticalLeft} src={AngalRace3} alt="AngalRace3" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
@@ -68,7 +68,7 @@ export const AngalsRacePage = () => {
                             inventore laboriosam perferendis sed doloribus?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, 
                             veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
-                            <img className={classes.imageRace4} src={AngalRace4} alt="AngalRace4" draggable="false"/>
+                            <img className={classes.imageHorizontally} src={AngalRace4} alt="AngalRace4" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 

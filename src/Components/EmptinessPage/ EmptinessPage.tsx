@@ -25,9 +25,9 @@ export const EmptinessPage = () => {
                 <div className={classes.blockContentEmptiness}>
                     <img className={classes.imageBlockContentEmptiness} src={EmptyEyes} alt="CoatOfArms" draggable="false"/>
                     <div className={classes.contentScrollFaction}>
-                    <h1>Пустота</h1>
-                    <img className={classes.contentImageFactionHorizontally} src={EmptinessImage1} alt="EmptinessImage1" draggable="false"/>
                     <p> 
+                        <h1>Пустота</h1>
+                        <img className={classes.imageHorizontally} src={EmptinessImage1} alt="EmptinessImage1" draggable="false"/>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Debitis nemo velit ullam dolore 
                         repellendus cumque earum dolores quae odio et distinctio 

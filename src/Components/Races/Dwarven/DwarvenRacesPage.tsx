@@ -29,7 +29,7 @@ export const DwarvenRacesPage = () => {
                     <div className={classes.contentScrollRace}>
                         <h1>Гномы</h1>
                         <p>
-                            <img className={classes.imageRace1} src={DwarvenRace1} alt="DwarvenRace1" draggable="false"/>
+                            <img className={classes.imageVerticalLeft} src={DwarvenRace1} alt="DwarvenRace1" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
@@ -42,7 +42,7 @@ export const DwarvenRacesPage = () => {
                             inventore laboriosam perferendis sed doloribus?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, 
                             veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
-                            <img className={classes.imageRace2} src={DwarvenRace2} alt="DwarvenRace2" draggable="false"/>
+                            <img className={classes.imageVerticalRight} src={DwarvenRace2} alt="DwarvenRace2" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
@@ -55,7 +55,7 @@ export const DwarvenRacesPage = () => {
                             inventore laboriosam perferendis sed doloribus?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, 
                             veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
-                            <img className={classes.imageRace3} src={DwarvenRace3} alt="DwarvenRace3" draggable="false"/>
+                            <img className={classes.imageVerticalLeft} src={DwarvenRace3} alt="DwarvenRace3" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
@@ -68,7 +68,7 @@ export const DwarvenRacesPage = () => {
                             inventore laboriosam perferendis sed doloribus?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, 
                             veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
-                            <img className={classes.imageRace4} src={DwarvenRace4} alt="DwarvenRace4" draggable="false"/>
+                            <img className={classes.imageHorizontally} src={DwarvenRace4} alt="DwarvenRace4" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
