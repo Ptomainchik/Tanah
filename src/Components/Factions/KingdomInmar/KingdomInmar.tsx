@@ -5,12 +5,14 @@ import Star from "../../../Images/HomePageImages/Star.png";
 import CoatOfArms from "../../../Images/Icons/CoatOfArmsOfTheKingdomOfInmar.webp";
 import InmarImage1 from "../../../Images/InmarImages/BackgroundPageInmar.jpg";
 import InmarImage2 from "../../../Images/InmarImages/KingOfInmar.jpg";
-import InmarImage3 from "../../../Images/InmarImages/North.jpg";
-import InmarImage4 from "../../../Images/InmarImages/Center.jpg";
-import InmarImage5 from "../../../Images/InmarImages/West.jpg";
-import InmarImage6 from "../../../Images/InmarImages/East.jpg";
-import InmarImage7 from "../../../Images/InmarImages/Southwest.jpg";
-import InmarImage8 from "../../../Images/InmarImages/Southeast.jpg";
+import InmarImage3 from "../../../Images/InmarImages/SecretOrder.jpg";
+import InmarImage4 from "../../../Images/InmarImages/North.jpg";
+import InmarImage5 from "../../../Images/InmarImages/Holy.jpg";
+import InmarImage6 from "../../../Images/InmarImages/Center.jpg";
+import InmarImage7 from "../../../Images/InmarImages/West.jpg";
+import InmarImage8 from "../../../Images/InmarImages/East.jpg";
+import InmarImage9 from "../../../Images/InmarImages/Southwest.jpg";
+import InmarImage10 from "../../../Images/InmarImages/Southeast.jpg";
 
 
 export const KingdomInmar = () => {
@@ -80,7 +82,7 @@ export const KingdomInmar = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipi
                             t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
                             e, inventore laboriosam perferendis sed doloribus?
-                            <img className={classes.imageHorizontally} src={InmarImage5} alt="InmarImage5" draggable="false"/>
+                            <img className={classes.imageVerticalRight} src={InmarImage5} alt="InmarImage5" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
@@ -114,6 +116,28 @@ export const KingdomInmar = () => {
                             t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
                             e, inventore laboriosam perferendis sed doloribus?
                             <img className={classes.imageHorizontally} src={InmarImage8} alt="InmarImage8" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque
+                            , dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora!
+                            Itaque, quia. Soluta!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipi
+                            t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
+                            e, inventore laboriosam perferendis sed doloribus?
+                            <img className={classes.imageHorizontally} src={InmarImage9} alt="InmarImage9" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque
+                            , dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora!
+                            Itaque, quia. Soluta!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipi
+                            t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
+                            e, inventore laboriosam perferendis sed doloribus?
+                            <img className={classes.imageHorizontally} src={InmarImage10} alt="InmarImage10" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 

@@ -4,10 +4,15 @@ import Tree from "../../../Images/BlackForestImages/DecorationBlackForest.png";
 import Star from "../../../Images/HomePageImages/Star.png";
 import CoatOfArms from "../../../Images/Icons/CoatOfArmsOfBlackForest.webp";
 import BlackForestImage1 from "../../../Images/BlackForestImages/BackgroundPageBlackForest.jpg";
-import BlackForestImage2 from "../../../Images/BlackForestImages/FirstGuardianOfSpirits.jpg";
-import BlackForestImage3 from "../../../Images/BlackForestImages/LeaderOfTheBandits.jpg";
-import BlackForestImage4 from "../../../Images/BlackForestImages/SeniorHunter.jpg";
-import BlackForestImage5 from "../../../Images/BlackForestImages/Brigadier.jpg";
+import BlackForestImage2 from "../../../Images/BlackForestImages/BlackRock.jpg";
+import BlackForestImage3 from "../../../Images/BlackForestImages/SpiritGuardiansCommunity.jpg";
+import BlackForestImage4 from "../../../Images/BlackForestImages/FirstGuardianOfSpirits.jpg";
+import BlackForestImage5 from "../../../Images/BlackForestImages/GangsCommunity.jpg";
+import BlackForestImage6 from "../../../Images/BlackForestImages/LeaderOfTheBandits.jpg";
+import BlackForestImage7 from "../../../Images/BlackForestImages/HuntersCommunity.jpg";
+import BlackForestImage8 from "../../../Images/BlackForestImages/SeniorHunter.jpg";
+import BlackForestImage9 from "../../../Images/BlackForestImages/WorkersCommunity.jpg";
+import BlackForestImage10 from "../../../Images/BlackForestImages/Brigadier.jpg";
 
 export const BlackForest = () => {
     
@@ -39,14 +44,14 @@ export const BlackForest = () => {
                             suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
                             dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            <img className={classes.imageVerticalLeft} src={BlackForestImage2} alt="BlackForestImage2" draggable="false"/>
+                            <img className={classes.imageVerticalRight} src={BlackForestImage2} alt="BlackForestImage2" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
                             suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
                             dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            <img className={classes.imageVerticalRight} src={BlackForestImage3} alt="BlackForestImage3" draggable="false"/>
+                            <img className={classes.imageHorizontally} src={BlackForestImage3} alt="BlackForestImage3" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
@@ -60,7 +65,42 @@ export const BlackForest = () => {
                             suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
                             dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            <img className={classes.imageVerticalRight} src={BlackForestImage5} alt="BlackForestImage5" draggable="false"/>
+                            <img className={classes.imageHorizontally} src={BlackForestImage5} alt="BlackForestImage5" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
+                            dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            <img className={classes.imageVerticalRight} src={BlackForestImage6} alt="BlackForestImage6" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
+                            dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            <img className={classes.imageHorizontally} src={BlackForestImage7} alt="BlackForestImage7" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
+                            dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            <img className={classes.imageVerticalLeft} src={BlackForestImage8} alt="BlackForestImage8" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
+                            dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            <img className={classes.imageHorizontally} src={BlackForestImage9} alt="BlackForestImage9" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
+                            dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            <img className={classes.imageVerticalRight} src={BlackForestImage10} alt="BlackForestImage10" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 

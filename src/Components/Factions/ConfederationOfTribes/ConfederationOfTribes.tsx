@@ -5,8 +5,12 @@ import Star from "../../../Images/HomePageImages/Star.png";
 import CoatOfArms from "../../../Images/Icons/CoatOfArmsOfTheConfederationOfTribes.webp";
 import ConfederationImage1 from "../../../Images/ConfederationImages/BackgroundPageConfederation.jpg";
 import ConfederationImage2 from "../../../Images/ConfederationImages/Eltabar.jpg";
-import ConfederationImage3 from "../../../Images/ConfederationImages/DesertConfederationBackgroundChoice.jpg";
-import ConfederationImage4 from "../../../Images/ConfederationImages/RegistanСoast.jpg";
+import ConfederationImage3 from "../../../Images/ConfederationImages/Karhin.jpg";
+import ConfederationImage4 from "../../../Images/ConfederationImages/Caravans.jpg";
+import ConfederationImage5 from "../../../Images/ConfederationImages/Hordish.jpg";
+import ConfederationImage6 from "../../../Images/ConfederationImages/Tentrem.jpg";
+import ConfederationImage7 from "../../../Images/ConfederationImages/Pasir.jpg";
+import ConfederationImage8 from "../../../Images/ConfederationImages/TempleOfEmptiness.jpg";
 
 
 export const ConfederationOfTribes = () => {
@@ -64,7 +68,34 @@ export const ConfederationOfTribes = () => {
                             suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
                             dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            
+                            <img className={classes.imageHorizontally} src={ConfederationImage5} alt="ConfederationImage5" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
+                            dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            <img className={classes.imageHorizontally} src={ConfederationImage6} alt="ConfederationImage6" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
+                            dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            <img className={classes.imageHorizontally} src={ConfederationImage7} alt="ConfederationImage7" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
+                            dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            <img className={classes.imageHorizontally} src={ConfederationImage8} alt="ConfederationImage8" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
+                            dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
                         </p>
                     </div>
                 </div>
