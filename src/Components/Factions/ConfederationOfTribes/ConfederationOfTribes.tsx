@@ -6,11 +6,11 @@ import CoatOfArms from "../../../Images/Icons/CoatOfArmsOfTheConfederationOfTrib
 import ConfederationImage1 from "../../../Images/ConfederationImages/BackgroundPageConfederation.jpg";
 import ConfederationImage2 from "../../../Images/ConfederationImages/Eltabar.jpg";
 import ConfederationImage3 from "../../../Images/ConfederationImages/Karhin.jpg";
-import ConfederationImage4 from "../../../Images/ConfederationImages/Caravans.jpg";
-import ConfederationImage5 from "../../../Images/ConfederationImages/Hordish.jpg";
-import ConfederationImage6 from "../../../Images/ConfederationImages/Tentrem.jpg";
-import ConfederationImage7 from "../../../Images/ConfederationImages/Pasir.jpg";
-import ConfederationImage8 from "../../../Images/ConfederationImages/TempleOfEmptiness.jpg";
+import ConfederationImage4 from "../../../Images/ConfederationImages/Hordish.jpg";
+import ConfederationImage5 from "../../../Images/ConfederationImages/Tentrem.jpg";
+import ConfederationImage6 from "../../../Images/ConfederationImages/Pasir.jpg";
+import ConfederationImage7 from "../../../Images/ConfederationImages/TempleOfEmptiness.jpg";
+import ConfederationImage8 from "../../../Images/ConfederationImages/Caravans.jpg";
 
 
 export const ConfederationOfTribes = () => {

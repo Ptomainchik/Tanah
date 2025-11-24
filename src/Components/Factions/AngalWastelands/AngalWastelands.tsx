@@ -5,10 +5,11 @@ import Star from "../../../Images/HomePageImages/Star.png";
 import CoatOfArms from "../../../Images/Icons/CoatOfArmsOfWasteland.webp";
 import WastelandImage1 from "../../../Images/WastelandImages/BackgroundPageWasteland.jpg";
 import WastelandImage2 from "../../../Images/WastelandImages/AngalsMother.jpg";
-import WastelandImage3 from "../../../Images/WastelandImages/OuterWastelands.jpg";
-import WastelandImage4 from "../../../Images/WastelandImages/CentralWastelands.jpg";
-import WastelandImage5 from "../../../Images/WastelandImages/InlandWastelands.jpg";
-import WastelandImage6 from "../../../Images/WastelandImages/RegionMother.jpg";
+import WastelandImage3 from "../../../Images/WastelandImages/RegionMother.jpg";
+import WastelandImage4 from "../../../Images/WastelandImages/InlandWastelands.jpg";
+import WastelandImage5 from "../../../Images/WastelandImages/CentralWastelands.jpg";
+import WastelandImage6 from "../../../Images/WastelandImages/OuterWastelands.jpg";
+import WastelandImage7 from "../../../Images/WastelandImages/DothersOfMother.jpg";
 
 export const AngalWastelands = () => {
     
@@ -79,6 +80,15 @@ export const AngalWastelands = () => {
                             ecessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             <img className={classes.imageHorizontally} src={WastelandImage6} alt="WastelandImage6" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Earum, quasi perspiciatis doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi n
+                            ecessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            <img className={classes.imageHorizontally} src={WastelandImage7} alt="WastelandImage7" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 

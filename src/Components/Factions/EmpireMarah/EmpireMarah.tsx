@@ -6,8 +6,9 @@ import CoatOfArms from "../../../Images/Icons/CoatOfArmsEmpire.webp";
 import EmpireImage1 from "../../../Images/EmpireImages/BackgroundPageEmpire.jpg";
 import EmpireImage2 from "../../../Images/EmpireImages/Emperor.jpg";
 import EmpireImage3 from "../../../Images/EmpireImages/WestEmpireModalImage.jpg";
-import EmpireImage4 from "../../../Images/EmpireImages/BiyaMainCharacter.jpg";
-import EmpireImage5 from "../../../Images/EmpireImages/EastEmpireModalImage.jpg";
+import EmpireImage4 from "../../../Images/EmpireImages/EastEmpireModalImage.jpg";
+import EmpireImage5 from "../../../Images/EmpireImages/BiyaMainCharacter.jpg";
+
 
 export const EmpireMarah = () => {
     
@@ -53,14 +54,14 @@ export const EmpireMarah = () => {
                             suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
                             dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            <img className={classes.imageVerticalLeft} src={EmpireImage4} alt="EmpireImage4" draggable="false"/>
+                            <img className={classes.imageHorizontally} src={EmpireImage4} alt="EmpireImage4" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
                             suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
                             dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            <img className={classes.imageHorizontally} src={EmpireImage5} alt="EmpireImage5" draggable="false"/>
+                            <img className={classes.imageVerticalLeft} src={EmpireImage5} alt="EmpireImage5" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 

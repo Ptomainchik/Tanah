@@ -5,14 +5,14 @@ import Star from "../../../Images/HomePageImages/Star.png";
 import CoatOfArms from "../../../Images/Icons/CoatOfArmsOfTheKingdomOfInmar.webp";
 import InmarImage1 from "../../../Images/InmarImages/BackgroundPageInmar.jpg";
 import InmarImage2 from "../../../Images/InmarImages/KingOfInmar.jpg";
-import InmarImage3 from "../../../Images/InmarImages/SecretOrder.jpg";
-import InmarImage4 from "../../../Images/InmarImages/North.jpg";
+import InmarImage3 from "../../../Images/InmarImages/North.jpg";
+import InmarImage4 from "../../../Images/InmarImages/Center.jpg";
 import InmarImage5 from "../../../Images/InmarImages/Holy.jpg";
-import InmarImage6 from "../../../Images/InmarImages/Center.jpg";
-import InmarImage7 from "../../../Images/InmarImages/West.jpg";
-import InmarImage8 from "../../../Images/InmarImages/East.jpg";
-import InmarImage9 from "../../../Images/InmarImages/Southwest.jpg";
-import InmarImage10 from "../../../Images/InmarImages/Southeast.jpg";
+import InmarImage6 from "../../../Images/InmarImages/West.jpg";
+import InmarImage7 from "../../../Images/InmarImages/East.jpg";
+import InmarImage8 from "../../../Images/InmarImages/Southwest.jpg";
+import InmarImage9 from "../../../Images/InmarImages/Southeast.jpg";
+import InmarImage10 from "../../../Images/InmarImages/SecretOrder.jpg";
 
 
 export const KingdomInmar = () => {
