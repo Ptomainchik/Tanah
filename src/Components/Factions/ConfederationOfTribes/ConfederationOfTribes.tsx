@@ -9,8 +9,9 @@ import ConfederationImage3 from "../../../Images/ConfederationImages/Karhin.jpg"
 import ConfederationImage4 from "../../../Images/ConfederationImages/Hordish.jpg";
 import ConfederationImage5 from "../../../Images/ConfederationImages/Tentrem.jpg";
 import ConfederationImage6 from "../../../Images/ConfederationImages/Pasir.jpg";
-import ConfederationImage7 from "../../../Images/ConfederationImages/TempleOfEmptiness.jpg";
-import ConfederationImage8 from "../../../Images/ConfederationImages/Caravans.jpg";
+import ConfederationImage7 from "../../../Images/ConfederationImages/Kidul.jpg";
+import ConfederationImage8 from "../../../Images/ConfederationImages/TempleOfEmptiness.jpg";
+import ConfederationImage9 from "../../../Images/ConfederationImages/Caravans.jpg";
 
 
 export const ConfederationOfTribes = () => {
@@ -90,6 +91,13 @@ export const ConfederationOfTribes = () => {
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
                             dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
                             <img className={classes.imageHorizontally} src={ConfederationImage8} alt="ConfederationImage8" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
+                            dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            <img className={classes.imageHorizontally} src={ConfederationImage9} alt="ConfederationImage9" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
