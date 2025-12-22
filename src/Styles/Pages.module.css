@@ -758,6 +758,15 @@
     float: right;
 }
 
+.imageVerticalCenter{
+    width: 40vw;
+    margin-left: 2%;
+    margin-right: 2%;  
+    margin-top: 2%;
+    border: solid 0.2vw gray; 
+    border-radius: 2vw;
+}
+
 .imageHorizontally{
     width: 94%;
     margin-left: 2%;
