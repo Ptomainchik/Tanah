@@ -13,6 +13,7 @@ import BlackForestImage7 from "../../../Images/BlackForestImages/HuntersCommunit
 import BlackForestImage8 from "../../../Images/BlackForestImages/SeniorHunter.jpg";
 import BlackForestImage9 from "../../../Images/BlackForestImages/WorkersCommunity.jpg";
 import BlackForestImage10 from "../../../Images/BlackForestImages/Brigadier.jpg";
+import BlackForestImage11 from "../../../Images/BlackForestImages/СhronicleOfBlackForest.png";
 
 export const BlackForest = () => {
     
@@ -107,7 +108,13 @@ export const BlackForest = () => {
                             suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
                             dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            
+                            <img className={classes.imageVerticalCenter} src={BlackForestImage11} alt="BlackForestImage11" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
+                            dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
                         </p>
                     </div>
                 </div>

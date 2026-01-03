@@ -10,6 +10,7 @@ import WastelandImage4 from "../../../Images/WastelandImages/InlandWastelands.jp
 import WastelandImage5 from "../../../Images/WastelandImages/CentralWastelands.jpg";
 import WastelandImage6 from "../../../Images/WastelandImages/OuterWastelands.jpg";
 import WastelandImage7 from "../../../Images/WastelandImages/DothersOfMother.jpg";
+import WastelandImage8 from "../../../Images/WastelandImages/СhronicleOfWastelandsOfAngals.png";
 
 export const AngalWastelands = () => {
     
@@ -89,6 +90,15 @@ export const AngalWastelands = () => {
                             ecessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             <img className={classes.imageHorizontally} src={WastelandImage7} alt="WastelandImage7" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Earum, quasi perspiciatis doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi n
+                            ecessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            <img className={classes.imageVerticalCenter} src={WastelandImage8} alt="WastelandImage8" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 

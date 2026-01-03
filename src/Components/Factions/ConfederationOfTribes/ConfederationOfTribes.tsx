@@ -12,6 +12,7 @@ import ConfederationImage6 from "../../../Images/ConfederationImages/Pasir.jpg";
 import ConfederationImage7 from "../../../Images/ConfederationImages/Kidul.jpg";
 import ConfederationImage8 from "../../../Images/ConfederationImages/TempleOfEmptiness.jpg";
 import ConfederationImage9 from "../../../Images/ConfederationImages/Caravans.jpg";
+import ConfederationImage10 from "../../../Images/ConfederationImages/СhronicleOfConfederationOfTribes.png";
 
 
 export const ConfederationOfTribes = () => {
@@ -98,6 +99,13 @@ export const ConfederationOfTribes = () => {
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
                             dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
                             <img className={classes.imageHorizontally} src={ConfederationImage9} alt="ConfederationImage9" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
+                            dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            <img className={classes.imageVerticalCenter} src={ConfederationImage10} alt="ConfederationImage10" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 

@@ -13,7 +13,7 @@ import InmarImage7 from "../../../Images/InmarImages/East.jpg";
 import InmarImage8 from "../../../Images/InmarImages/Southwest.jpg";
 import InmarImage9 from "../../../Images/InmarImages/Southeast.jpg";
 import InmarImage10 from "../../../Images/InmarImages/SecretOrder.jpg";
-
+import InmarImage11 from "../../../Images/InmarImages/СhronicleOfTheKingdomInmar.png";
 
 export const KingdomInmar = () => {
     
@@ -138,6 +138,17 @@ export const KingdomInmar = () => {
                             t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
                             e, inventore laboriosam perferendis sed doloribus?
                             <img className={classes.imageHorizontally} src={InmarImage10} alt="InmarImage10" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque
+                            , dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora!
+                            Itaque, quia. Soluta!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipi
+                            t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
+                            e, inventore laboriosam perferendis sed doloribus?
+                            <img className={classes.imageVerticalCenter} src={InmarImage11} alt="InmarImage11" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 

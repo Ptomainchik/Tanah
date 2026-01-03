@@ -12,6 +12,7 @@ import BearPeaksImage6 from "../../../Images/BearPeaksImages/Tamer.jpg";
 import BearPeaksImage7 from "../../../Images/BearPeaksImages/Kula.jpg";
 import BearPeaksImage8 from "../../../Images/BearPeaksImages/Kurkachi.jpg";
 import BearPeaksImage9 from "../../../Images/BearPeaksImages/GoldTower.jpg";
+import BearPeaksImage10 from "../../../Images/BearPeaksImages/СhronicleOfBearPeaks.png";
 
 export const BearPeaks = () => {
     
@@ -93,6 +94,13 @@ export const BearPeaks = () => {
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
                             dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
                             <img className={classes.imageVerticalLeft} src={BearPeaksImage9} alt="BearPeaksImage9" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
+                            dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            <img className={classes.imageVerticalCenter} src={BearPeaksImage10} alt="BearPeaksImage10" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 

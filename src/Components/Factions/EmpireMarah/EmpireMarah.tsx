@@ -8,7 +8,7 @@ import EmpireImage2 from "../../../Images/EmpireImages/Emperor.jpg";
 import EmpireImage3 from "../../../Images/EmpireImages/WestEmpireModalImage.jpg";
 import EmpireImage4 from "../../../Images/EmpireImages/EastEmpireModalImage.jpg";
 import EmpireImage5 from "../../../Images/EmpireImages/BiyaMainCharacter.jpg";
-
+import EmpireImage6 from "../../../Images/EmpireImages/СhronicleOfEmpireMarah.png";
 
 export const EmpireMarah = () => {
     
@@ -62,6 +62,13 @@ export const EmpireMarah = () => {
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
                             dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
                             <img className={classes.imageVerticalLeft} src={EmpireImage5} alt="EmpireImage5" draggable="false"/>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis nemo velit ullam dolore 
+                            repellendus cumque earum dolores quae odio et distinctio 
+                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
+                            dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
+                            <img className={classes.imageVerticalCenter} src={EmpireImage6} alt="EmpireImage6" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
