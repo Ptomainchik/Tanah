@@ -13,6 +13,7 @@ import { HumanRacesPage } from './Components/Races/Human/HumanRacesPage';
 import { ElvenRacePage } from './Components/Races/Elven/ElvenRacePage';
 import { HistoryPage } from './Components/HistoryPage/HistoryPage';
 import { EmptinessPage } from './Components/EmptinessPage/ EmptinessPage';
+import { MaatRacePage } from './Components/Races/Maat/MaatRacePage';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="orc" element={<OrcRacePage/>}/>
         <Route path="humans" element={<HumanRacesPage/>}/>
         <Route path="elven" element={<ElvenRacePage/>}/>
+        <Route path="maat" element={<MaatRacePage/>}/>
       </Routes>
     </BrowserRouter>
     

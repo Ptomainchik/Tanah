@@ -54,6 +54,14 @@
     background-size: cover;
 }
 
+.pageMaatRace{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: url(../Images/MaatImages/BackgroundPageMaat.jpg) no-repeat;
+    background-size: cover;
+}
+
 .pageHistory{
     width: 100%;
     height: 100%;
@@ -478,6 +486,38 @@
     width: 100%;
     height: 100%;
     background: url(../Images/Textures/BackgroundBlockBearPeaks.jpg);
+    background-size: cover;
+    background-blend-mode: normal;
+    border-radius: 2vw;
+    opacity: 0.7;
+    z-index: -1; 
+    margin: 0;
+}
+
+.blockContentMaat{
+    width: 97%;
+    height: 95%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: 
+        linear-gradient(225deg, 
+            rgba(72, 72, 72, 0.6) 0%,
+            rgba(160, 160, 160, 0.6) 100%);
+    background-size: 200% 200%;
+    animation: shine 10s infinite linear;
+    border-radius: 2vw;
+}
+
+.blockContentMaat::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../Images/Textures/BackgroundBlockMaat.jpg);
     background-size: cover;
     background-blend-mode: normal;
     border-radius: 2vw;

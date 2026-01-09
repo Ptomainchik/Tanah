@@ -13,6 +13,7 @@ import HumanRace from "../../Images/Icons/HumanRace.png";
 import DwarvenRaces from "../../Images/Icons/DwarvenRaces.png";
 import OrcRace from "../../Images/Icons/OrcRace.png";
 import ElvenRace from "../../Images/Icons/ElvenRace.png";
+import MaatRace from "../../Images/Icons/MaatRace.png";
 import Feather from "../../Images/Icons/Feather.png";
 import EmptyEyes from "../../Images/Icons/EmptyEyes.png";
 import Swords from "../../Images/Icons/Swords.png";
@@ -51,6 +52,9 @@ export const HomePage = () => {
         }
         else if (id === "Orc") {
             navigate("/orc");
+        }
+        else if (id === "Maat") {
+            navigate("/maat");
         }
         else if (id === "Wastelands") {
             navigate("/wastelands");
@@ -116,6 +120,11 @@ export const HomePage = () => {
                             <div id="Orc" className={classes.contentButton} onClick={() => {handleTransition("Orc")}}>
                                 <img src={OrcRace} alt="OrcRace" draggable="false"/>
                                 Орки
+                            </div>
+
+                            <div id="Maat" className={classes.contentButton} onClick={() => {handleTransition("Maat")}}>
+                                <img src={MaatRace} alt="MaatRace" draggable="false"/>
+                                Маат
                             </div>
 
                         </div>
