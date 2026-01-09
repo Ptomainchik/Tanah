@@ -668,7 +668,7 @@
     text-align: center;
 }
 
-.contentScrollFaction p{
+.contentScrollFaction div{
     width: 98%;
     font-size: 2vw;
     font-family: "Pangolin";

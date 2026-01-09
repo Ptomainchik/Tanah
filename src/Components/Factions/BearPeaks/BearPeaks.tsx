@@ -35,7 +35,7 @@ export const BearPeaks = () => {
                 <div className={classes.blockContentBearPeaks}>
                     <img className={classes.imageBlockContentBearPeaks} src={CoatOfArms} alt="CoatOfArms" draggable="false"/>
                     <div className={classes.contentScrollFaction}>  
-                        <p>
+                        <div>
                             <h1>Медвежьи вершины</h1>
                             <img className={classes.imageHorizontally} src={BearPeaksImage1} alt="BearPeaksImage1" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -107,7 +107,7 @@ export const BearPeaks = () => {
                             suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
                             dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                        </p>
+                        </div>
                     </div>
                 </div>
             </div>

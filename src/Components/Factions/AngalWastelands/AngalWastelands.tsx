@@ -33,10 +33,11 @@ export const AngalWastelands = () => {
                 <div className={classes.blockContentWasteland}>
                     <img className={classes.imageBlockContentWasteland} src={CoatOfArms} alt="CoatOfArms" draggable="false"/>
                     <div className={classes.contentScrollFaction}>  
-                        <p>
+                        <div>
                             <h1>Пустоши ангалов</h1>
                             <img className={classes.imageHorizontally} src={WastelandImage1} alt="WastelandImage1" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
                             repellendus cumque earum dolores quae odio et distinctio 
                             suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
@@ -44,6 +45,8 @@ export const AngalWastelands = () => {
                             Earum, quasi perspiciatis doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi n
                             ecessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            </p>
+                            
                             <img className={classes.imageHorizontally} src={WastelandImage2} alt="WastelandImage2" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Debitis nemo velit ullam dolore 
@@ -107,7 +110,7 @@ export const AngalWastelands = () => {
                             Earum, quasi perspiciatis doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi n
                             ecessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        </p>
+                        </div>
                     </div>
                 </div>
             </div>

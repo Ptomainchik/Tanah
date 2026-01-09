@@ -36,7 +36,7 @@ export const ConfederationOfTribes = () => {
                 <div className={classes.blockContentConfederation}>
                     <img className={classes.imageBlockContentHuman} src={CoatOfArms} alt="CoatOfArms" draggable="false"/>
                     <div className={classes.contentScrollFaction}>  
-                        <p>
+                        <div>
                             <h1>Конфедерация племён</h1>
                             <img className={classes.imageHorizontally} src={ConfederationImage1} alt="ConfederationImage1" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -112,7 +112,7 @@ export const ConfederationOfTribes = () => {
                             suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
                             dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                        </p>
+                        </div>
                     </div>
                 </div>
             </div>

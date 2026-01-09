@@ -36,7 +36,7 @@ export const KingdomInmar = () => {
                 <div className={classes.blockContentInmar}>
                     <img className={classes.imageBlockContentHuman} src={CoatOfArms} alt="CoatOfArms" draggable="false"/>
                     <div className={classes.contentScrollFaction}>   
-                        <p>
+                        <div>
                             <h1>Королевство Инмар</h1>
                             <img className={classes.imageHorizontally} src={InmarImage1} alt="InmarImage1" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -159,7 +159,7 @@ export const KingdomInmar = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipi
                             t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
                             e, inventore laboriosam perferendis sed doloribus?
-                        </p>
+                        </div>
                     </div>
                 </div>
             </div>

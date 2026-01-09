@@ -36,7 +36,7 @@ export const BlackForest = () => {
                 <div className={classes.blockContentBlackForest}>
                     <img className={classes.imageBlockContentBlackForest} src={CoatOfArms} alt="CoatOfArms" draggable="false"/>
                     <div className={classes.contentScrollFaction}>  
-                        <p>
+                        <div>
                             <h1>Чёрный лес</h1>
                             <img className={classes.imageHorizontally} src={BlackForestImage1} alt="BlackForestImage1" draggable="false"/>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -115,7 +115,7 @@ export const BlackForest = () => {
                             suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque, 
                             dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                        </p>
+                        </div>
                     </div>
                 </div>
             </div>
