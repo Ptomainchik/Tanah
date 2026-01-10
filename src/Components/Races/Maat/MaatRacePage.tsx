@@ -2,7 +2,7 @@ import classes from "../../../Styles/Pages.module.css";
 import Smoke from "../../../Images/MaatImages/DecorationMaat.png";
 import Star from "../../../Images/HomePageImages/Star.png";
 import { useNavigate } from "react-router";
-import MaatRace1 from "../../../Images/InmarImages/HumanRaceInmarMan.jpg";
+import MaatRace1 from "../../../Images/MaatImages/MaatRace.jpg";
 
 export const MaatRacePage = () => {
 
