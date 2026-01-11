@@ -29,51 +29,47 @@ export const AngalsRacePage = () => {
                     <div className={classes.contentScrollRace}>
                         <h1>Ангалы</h1>
                         <p>
-                            <img className={classes.imageVerticalLeft} src={AngalRace1} alt="AngalRace1" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis 
-                            doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus 
-                            natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipit tempora natus, 
-                            rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudiandae, 
-                            inventore laboriosam perferendis sed doloribus?
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, 
-                            veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
-                            <img className={classes.imageVerticalRight} src={AngalRace2} alt="AngalRace2" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis 
-                            doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus 
-                            natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipit tempora natus, 
-                            rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudiandae, 
-                            inventore laboriosam perferendis sed doloribus?
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, 
-                            veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
-                            <img className={classes.imageVerticalLeft} src={AngalRace3} alt="AngalRace3" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis 
-                            doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus 
-                            natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipit tempora natus, 
-                            rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudiandae, 
-                            inventore laboriosam perferendis sed doloribus?
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, 
-                            veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
-                            <img className={classes.imageHorizontally} src={AngalRace4} alt="AngalRace4" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis 
+                            
+                            <p>
+                                <img className={classes.imageVerticalLeft} src={AngalRace1} alt="AngalRace1" draggable="false"/>
+                                    Средняя продолжительность жизни ангалов — около 200 лет. Женщины живут немного дольше, и лишь неоспоримая королева Мать существует уже около 3 тысячелетий.
+                                    Точной даты её появления в Пустошах не знает никто, известно лишь то, что первый Ангалим был заключён именно ею — это было ещё на заре пробуждения континента от холодов Эпохи Зимы.
+                                    Женщины-ангалки, помимо продолжительности жизни, превосходят мужчин в росте и силе. Когда-то они были практически такими же, как и представители сильного пола, хотя «сильный пол» — громко сказано по отношению к мужчинам-ангалам.
+                                    Но как только стали заключаться первые ангалимы, всё круто изменилось: симбиотический договор, видимо, как-то повлиял на их биологические процессы и стал тем толчком к изменению их организма, многократно увеличив все жизненные показатели. 
+                            </p>
+
+                            <p>
+                                <img className={classes.imageVerticalRight} src={AngalRace2} alt="AngalRace2" draggable="false"/>
+                                    Мужчины же значительно меньше ангалок: их рост гораздо ниже, где-то на две головы, а телосложение, хоть и имеет мускулинные черты, по силе никак не может сравниться с женской.
+                                    В основной своей массе они щуплые, хоть и жилистые; лишь те, кто служит в армии Пустоши, выделяются среди остальных своих собратьев, но всё равно не дотягивают до женщин.
+                                    Всё это в первую очередь связано с воздействием ангалима на организм ангалов и ангалок, но второй причиной является то, что всё самое лучшее в их обществе получают женщины — это происходит всё по той же первой причине.
+                                    Те же, кто так и не совершил симбиотический договор с фамильяром по каким-либо причинам, считаются низшей кастой и выживают на грани существования в Пустошах.
+                                    Меньшего роста и гораздо слабее ангалов, совершивших ангалим, они борются за объедки со стола общественного уклада Пустоши ангалов. 
+                            </p>
+                                
+                            <p>
+                                <img className={classes.imageVerticalLeft} src={AngalRace3} alt="AngalRace3" draggable="false"/>
+                                    Ещё одна особенность расы ангалов — это то, как разрываются симбиотические договоры (смерть симбионта): те, кто разорвал ангалим, становятся подобием дикого зверя с ангальскими чертами.
+                                    Они заимствуют облик, силу и повадки от своих фамильяров: наполовину зверь, наполовину ангал, такие изменённые особи теряют рассудок, замещая своё естество звериными инстинктами.
+                                    Их называют ангалитами. Потеряв разум, они бродят по Пустошам в поисках себе подобных, сбиваясь с ними в группы, охотясь на животных для пропитания и на заблудившихся бедолаг-путников, но своих бывших собратьев по каким-то причинам не трогают.
+                                    Скорее всего, это остатки их разума, считающие простых ангалов частью стаи.
+                                    Единственная особенность перехода ангала к ангалиту заключается в том, что этому подвержены только мужчины.
+                                    Женщины, потерявшие или убившие своего фамильяра (да и такое бывает, делая это для того, чтобы заключить ангалим с более желаемым животным — зачастую это экзотические представители фауны из-за пределов границ Пустоши),
+                                    не теряют способностей старых фамильяров, но взамен приобретают новые, заключая очередные договоры.
+                                    Только Мать способна иметь сразу десяток симбионтов, приобретая способности всех вкупе.
+                            </p> 
+                                 
+                            <p>
+                                <img className={classes.imageHorizontally} src={AngalRace4} alt="AngalRace4" draggable="false"/>
+                                    Одним из главных столпов в жизненном укладе ангалов является охота — та самая охота, которая обеспечивает бесконечный поток фамильяров для ангалимов.
+                                    Ей занимаются только мужчины; это их главная обязанность, помимо исполнения женских прихотей.
+                                    С самого детства мальчики, воспитывающиеся родственниками мужского пола, готовятся к своей первой охоте — для них это как посвящение в общество.
+                                    Так как там будет заключён их первый и пожизненный ангалим, поэтому их готовят к этому очень тщательно, обучая юношей охотничьим премудростям и распознаванию сильных особей из животного мира.
+                                    Заключая свой первый ангалим, юноши на всю жизнь становятся связаны со своим фамильяром незримыми нитями, обретая способности своего симбионта, такие как острое зрение, чёткий слух, сильное обоняние и другие. 
+                                    Девушки же, меняя симбионта, могут приобретать новые способности от другого животного, с которым заключается договор, теряя при этом, естественно, старые.
+                                    Поэтому первая охота так важна в жизни мужчин-ангалов.
+                            </p>
+                            
                         </p>
                     </div>
                 </div>

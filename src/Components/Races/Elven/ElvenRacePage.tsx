@@ -29,51 +29,44 @@ export const ElvenRacePage = () => {
                     <div className={classes.contentScrollRace}>
                         <h1>Эльфы</h1>
                         <p>
-                            <img className={classes.imageVerticalLeft} src={ElvenRace1} alt="ElvenRace1" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis 
-                            doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus 
-                            natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipit tempora natus, 
-                            rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudiandae, 
-                            inventore laboriosam perferendis sed doloribus?
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, 
-                            veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
-                            <img className={classes.imageVerticalRight} src={ElvenRace2} alt="ElvenRace2" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis 
-                            doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus 
-                            natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipit tempora natus, 
-                            rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudiandae, 
-                            inventore laboriosam perferendis sed doloribus?
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, 
-                            veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
-                            <img className={classes.imageVerticalLeft} src={ElvenRace3} alt="ElvenRace3" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis 
-                            doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus 
-                            natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipit tempora natus, 
-                            rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudiandae, 
-                            inventore laboriosam perferendis sed doloribus?
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsa quaerat nam fuga, totam, 
-                            veniam illo odit eaque molestiae dicta omnis quidem, laudantium alias numquam doloribus ad recusandae quibusdam velit.
-                            <img className={classes.imageHorizontally} src={ElvenRace4} alt="ElvenRace4" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis 
+
+                            <p>
+                                <img className={classes.imageVerticalLeft} src={ElvenRace1} alt="ElvenRace1" draggable="false"/>
+                                    Одна из самых эмпатичных рас на всём континенте Танах — это эльфы.
+                                    Внешне высокие, со стройными атлетическими пропорциями, они напоминают своей грациозностью и величием чистокровных скакунов.
+                                    Они могут порождать как самые прекрасные, так и ужасающие вещи и поступки.
+                                    Их жизненный уклад, а скорее природа естества, подчинены эмоциям.
+                                    Средняя продолжительность жизни варьируется от 500 до 600 лет, но смертью в традиционном понимании она не заканчивается, хотя и такое имеет место быть.
+                                    Когда эльф уже становится умудрённым опытом стариком, он погибает от болезней и старости только в том случае, если не совершает ритуал Старейшины.
+                                    Это своеобразный переход от независимой жизни организма к слиянию в гармонии с природой, продолжая существовать как её часть — физически и ментально, но при этом сохраняя рассудок.
+                                <img className={classes.imageVerticalRight} src={ElvenRace2} alt="ElvenRace2" draggable="false"/>
+                                    Но даже в этом случае не всем удаётся совершить этот переход; многие умирают, поглощаемые самой природой.
+                                    Так, в эльфийской расе есть два постулата, каждый из которых, как считают их приверженцы, ведёт к истинной гармонии с миром.
+                                    Одни полагаются на сдержанность в своих эмоциях, подчиняя и разбирая их по крупицам, пытаясь осознать, откуда они берут своё начало и к чему могут привести.
+                                    Не поддаваясь импульсу нахлынувших чувств, они, вследствие таких внутренних тисков, приобретают цвет волос белоснежного оттенка, напоминающий тусклое сияние луны.
+                                    Вторые же, напротив, не сдерживают нахлынувшие на них эмоции, порой действуя по наитию. Растворяясь в чувствах как в бурном потоке, не оставляя недосказанностей и выплёскивая всё вовне.
+                                    По этим причинам цвет волос этих эльфов не изменяется и остаётся естественным.
+                                    Других физических отличий между двумя народами одной расы нет.
+                            </p>
+
+                            <p>
+                                <img className={classes.imageVerticalLeft} src={ElvenRace3} alt="ElvenRace3" draggable="false"/>
+                                    Значимой частью эльфийской расы являются старейшины.
+                                    Эльфы, совершившие ритуал перехода, застывшие во времени, поглощённые древами в Лесу старейшин, стоят, встроенные в структуру деревьев, словно вросли в них и стали их частью, будто напоминая остальным о том, что всё в этом мире едино.
+                                    Их разум остаётся, как прежде, острым и незамутнённым, но обретшим гармонию и покой.
+                                    В основном они проводят время в медитативном сне, изредка пробуждаясь и вновь погружаясь в транс.
+                                    Некоторым старейшинам десятки тысяч лет, а то и больше, но чем дольше такой эльф находится в гармонии с природой, тем сложнее его пробудить.
+                                    Когда народу эльфов требуется совет от своих предков, они пробуждают одного из старейшин и слушают все его наставления безоговорочно.
+                                    К ним обращаются в моменты высшей опасности для всей расы, когда ситуация накалена до предела и простые решения не способны повлиять на исход событий.
+                            </p>
+                            
+                            <p>
+                                <img className={classes.imageHorizontally} src={ElvenRace4} alt="ElvenRace4" draggable="false"/>
+                                    Так, из-за своего внутреннего устройства одни эльфы создают грандиозные колыбели мысли, где обучают практически всему возможному — от строительного дела и кузнечного ремесла до высших наук.
+                                    Другие же действуют совершенно иначе: примыкая к мудрейшим и учась у них всему, они подтверждают им свою одержимость делом и доказывают это на практике, становясь продолжением мастерства наставника.
+                                    По сути, и те и другие делают одно и то же, но с разным подходом: первые, подавляя эмоции, исходят из рациональности, а вторые, напротив, погружаясь в переживания целиком и полностью. 
+                            </p>
+                            
                         </p>
                     </div>
                 </div>
