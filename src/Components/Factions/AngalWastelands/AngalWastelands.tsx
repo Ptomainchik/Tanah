@@ -4,12 +4,12 @@ import Column from "../../../Images/WastelandImages/DecorationWasteland.png";
 import Star from "../../../Images/HomePageImages/Star.png";
 import CoatOfArms from "../../../Images/Icons/CoatOfArmsOfWasteland.webp";
 import WastelandImage1 from "../../../Images/WastelandImages/BackgroundPageWasteland.jpg";
-import WastelandImage2 from "../../../Images/WastelandImages/AngalsMother.jpg";
-import WastelandImage3 from "../../../Images/WastelandImages/RegionMother.jpg";
-import WastelandImage4 from "../../../Images/WastelandImages/InlandWastelands.jpg";
-import WastelandImage5 from "../../../Images/WastelandImages/CentralWastelands.jpg";
-import WastelandImage6 from "../../../Images/WastelandImages/OuterWastelands.jpg";
-import WastelandImage7 from "../../../Images/WastelandImages/DothersOfMother.jpg";
+import WastelandImage2 from "../../../Images/WastelandImages/RegionMother.jpg";
+import WastelandImage3 from "../../../Images/WastelandImages/AngalsMother.jpg";
+import WastelandImage4 from "../../../Images/WastelandImages/DothersOfMother.jpg";
+import WastelandImage5 from "../../../Images/WastelandImages/InlandWastelands.jpg";
+import WastelandImage6 from "../../../Images/WastelandImages/CentralWastelands.jpg";
+import WastelandImage7 from "../../../Images/WastelandImages/OuterWastelands.jpg";
 import WastelandImage8 from "../../../Images/WastelandImages/СhronicleOfWastelandsOfAngals.png";
 
 export const AngalWastelands = () => {
@@ -34,82 +34,91 @@ export const AngalWastelands = () => {
                     <img className={classes.imageBlockContentWasteland} src={CoatOfArms} alt="CoatOfArms" draggable="false"/>
                     <div className={classes.contentScrollFaction}>  
                         <div>
+
                             <h1>Пустоши ангалов</h1>
-                            <img className={classes.imageHorizontally} src={WastelandImage1} alt="WastelandImage1" draggable="false"/>
+
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                            Earum, quasi perspiciatis doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi n
-                            ecessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                <img className={classes.imageHorizontally} src={WastelandImage1} alt="WastelandImage1" draggable="false"/>
+                                    На юго-западе Танаха простираются потрескавшиеся от засухи Пустоши ангалов и одноимённое королевство.
+                                    Пронизываемые сухим ветром, вздымающим пыль с высохшей почвы, здесь в пусошах ни одно живое существо не может находиться в полной безопасности.
+                                    Стаи шакалов преследуют любого, кто осмелится вступить на эти земли, а грифы надменно ждут, когда жертва падёт от усталости, карауля её, чтобы затем разорвать тело в клочья; обгладывая кости, они не оставляют надежды никому.
+                                    Ангалиты, обезумевшие и потерявшие рассудок, ведомые инстинктами, бродят в поисках пищи, которой может стать кто угодно.
+                                    Те немногие водоёмы не оставят шанса на выживание, ведь так же стремительно, как они появляются, они так же неумолимо высыхают за неделю.
+                                    Жизнь здесь — это постоянная гонка со временем в поисках пропитания и живительной влаги.
+                                    Лишь на самом юге пустошей, в раскидистых каньонах, можно было бы ненадолго передохнуть, но как бы не так: ведь именно здесь находится своеобразная столица ангалов.
                             </p>
                             
-                            <img className={classes.imageHorizontally} src={WastelandImage2} alt="WastelandImage2" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                            Earum, quasi perspiciatis doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi n
-                            ecessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            <img className={classes.imageHorizontally} src={WastelandImage3} alt="WastelandImage3" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                            Earum, quasi perspiciatis doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi n
-                            ecessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            <img className={classes.imageHorizontally} src={WastelandImage4} alt="WastelandImage4" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                            Earum, quasi perspiciatis doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi n
-                            ecessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            <img className={classes.imageHorizontally} src={WastelandImage5} alt="WastelandImage5" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                            Earum, quasi perspiciatis doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi n
-                            ecessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            <img className={classes.imageHorizontally} src={WastelandImage6} alt="WastelandImage6" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                            Earum, quasi perspiciatis doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi n
-                            ecessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            <img className={classes.imageHorizontally} src={WastelandImage7} alt="WastelandImage7" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                            Earum, quasi perspiciatis doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi n
-                            ecessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            <img className={classes.imageVerticalCenter} src={WastelandImage8} alt="WastelandImage8" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                            Earum, quasi perspiciatis doloremque itaque, dicta deserunt omnis ab impedit debitis architecto nisi n
-                            ecessitatibus natus maxime repellat temporibus tempora! Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            <p>
+                                <img className={classes.imageHorizontally} src={WastelandImage2} alt="WastelandImage2" draggable="false"/>
+                                    Материнские пустоши — гигантский город, расположившийся среди каньонов; его размеры поражают воображение.
+                                    Крики властолюбивых женщин, доносящиеся отовсюду, и грохот штолен сливаются в одну жуткую мелодию ужаса.
+                                    Мелодию, которую не каждый сможет выдержать, к тому же вдобавок дым от печей, давящий вязким смогом, не даст вздохнуть полной грудью, оседая в лёгких.
+                                    По рассказам и домыслам, этот город больше напоминает муравейник или пчелиный улей, где в каньонах искусно выдолблены целые кварталы.
+                                    А в центре находятся зловещие Чертоги Матери — сеть пещерных залов, подобных дворцу, откуда расползаются жуткие законы матриархального уклада.
+                                    Большая часть ресурсов добывается в этих местах, а производство имеет огромные масштабы; это центр промышленности Пустошей.
+                            </p>
+                           
+                            <p>
+                                <img className={classes.imageHorizontally} src={WastelandImage3} alt="WastelandImage3" draggable="false"/>
+                                    Отсюда правит единственная и неоспоримая королева Мать — владычица всей Пустоши, или Дома, как называют её сами ангалы.
+                                    Все законы и указы утверждает и выносит только она; её власть незыблема, а тот, кто попытается это оспорить, станет пищей во время ужасающих пиров, которые проводят для неё её дочери.
+                                    В мрачных залах царит пугающая тишина, контрастирующая с шумными улицами города за пределами чертогов.
+                                    Лишь редкие шорохи и рычание доносятся из глубины пещер, и иногда — разрывающий душу вой многочисленных фамильяров Матери.
+                            </p>
+
+                            <p>
+                                <img className={classes.imageHorizontally} src={WastelandImage4} alt="WastelandImage4" draggable="false"/>
+                                    На всей территории Пустоши действуют законы матриархата, вершиной власти которого, естественно, является Мать, но высоким влиянием в Доме также обладают и другие женщины — ставленницы королевы, контролирующие многие аспекты жизни.
+                                    Дочери — это как раз те самые ангалки, приближённые к монарху, которые имеют огромное могущество в Пустоши.
+                                    Они выполняют роль власти, следят за матриархальным порядком, выполняют функции казначейства, распределяют ресурсы и доносят слово Матери до остальных ангалов.
+                                    Следующая ветвь правления — это надсмотрщицы, подобие генеральш, следящих за порядком; они карают неугодных и могут проводить массовые казни, дабы остальные мужчины не могли даже подумать о неподчинении.
+                                    Последним столпом власти являются хозяйки — простые женщины, держащие в услужении десятки мужчин, своего рода главы семей, где только их слово имеет закон и исполняется любая их прихоть.
+                                    Остальные женщины и девочки в таких семьях подчиняются воле хозяйки, но тоже имеют власть над мужчинами в ней.
+                            </p>
+
+                            <p>
+                                <img className={classes.imageHorizontally} src={WastelandImage5} alt="WastelandImage5" draggable="false"/>
+                                    Ни один мужчина не обладает никакими правами в Доме; есть только одно место, где они могут почувствовать глоток свободы — служба в рядах армии Пустоши ангалов.
+                                    Многие уходят из семей во Внутренние пустоши, дабы снять с себя бремя вечного рабства в услужении хозяйки.
+                                    Однако взамен они подвергают себя другим рискам: стать калекой или быть убитым в очередном походе. Несмотря на это, большинство мужчин идут на эти риски.
+                                    Хотя и здесь матриархат не оставляет их в покое: постоянные рейды с проверками от надсмотрщиц не дают расслабиться.
+                                    Когда-то в этой части пустоши существовала древняя цивилизация предков ангалов, возводившая монументальные постройки и дворцы, сохранившиеся до наших дней; в то время, как поговаривают, не существовало никакого матриархата — женщины и мужчины были равны.
+                                    Затем, когда началась Эпоха Зимы, ангалы покинули это место и переместились на юг, в каньоны.
+                                    И по окончании катаклизма, в тех стеснённых условиях, после того как стали заключаться первые ангалимы и Мать явилась народу, женщины стали плавно и методично брать верх над мужской половиной населения, после чего установился матриархат.
+                                    Конечно, мужчины сопротивлялись, но все попытки мятежей пресекались на корню ещё до их начала.
+                                    Когда Внутренние пустоши были заселены вновь и произошло массовое патриархальное восстание, Мать отдала приказ Дочерям уничтожить не только всех заговорщиков, но и большую часть мужского контингента в этой части Дома.
+                                    А спустя долгое время демонстративные устрашения, а попросту казни незначительных групп мужчин, стали происходить на постоянной основе.
+                                    Сейчас во Внутренних пустошах располагается главный штаб армии ангалов; здесь проходят обучение молодые солдаты, вступившие на этот путь, и тут же выстраивается огромная сеть из дозорных башен и фортов на основании руин от оставшихся величественных построек предков.
+                                    Сама же армия представляет из себя в большей массе простых охотников — тех, кто после первой своей охоты сразу же выбрал службу, или тех, кто, набравшись опыта в выслеживании добычи, решил покинуть свои семьи.
+                                    Они снаряжены либо фамильными охотничьими ножами, кои получают при первой охоте, или же метательным оружием, напоминающим дротики.
+                                    Элиту войск составляют более крупные мужчины по сравнению с остальной массой солдат, вооружённые тяжёлыми булавами.
+                                    Но тех, кого враги страшатся больше всего, с первого взгляда не распознаешь:
+                                    это те же солдаты, но с одной большой разницей — в момент, когда это потребуется на поле брани, их фамильяров умерщвляют, дабы в пылу сражения эти обрекающие себя на такую участь воины становились ангалитами, повергая врага в дикий ужас и страх; они сокрушают его неистовыми ударами когтей и клыков. 
+                            </p>
+                          
+                            <p>
+                                <img className={classes.imageHorizontally} src={WastelandImage6} alt="WastelandImage6" draggable="false"/>
+                                    Центральные пустоши — огромная территория, населённая немногочисленными кочевыми группами пастухов.
+                                    Они разводят скот для пропитания и фамильяров для ангалимов, находясь в постоянном движении со своими стадами и перемещаясь с места на место в поисках водоёмов и плодородных земель для скота.
+                                    Буквально за сутки они могут собрать или разобрать свои небольшие жилища, возводимые из ветвей деревьев и шкур животных, а затем моментально отправиться в путь.
+                                    С этих земель начинается охота: направляясь на поиски животных, охотники собираются в большие группы и устраивают засады на фамильяров, которых позже доставят прямо в Материнские пустоши для женщин-ангалок. 
+                            </p>
+                            
+                            <p>
+                                <img className={classes.imageHorizontally} src={WastelandImage7} alt="WastelandImage7" draggable="false"/>
+                                    Внешние пустоши — практически пустые земли; ангалы здесь не обитают, из-за чего в этом крае полно дичи, за которой и устремляются охотники.
+                                    Многие ангалиты, потерявшие рассудок по каким-то причинам, уходят именно сюда, собираясь в стаи.
+                                    Что, в свою очередь, становится первым барьером для наступающих врагов Пустоши ангалов с севера.
+                                    Также здесь происходят первые ангалимы молодых ангалов, участвующих в своей первой охоте, ведь самые сильные особи фамильяров обитают именно здесь.
+                            </p>
+                            
+                            <p>
+                                <img className={classes.imageVerticalCenter} src={WastelandImage8} alt="WastelandImage8" draggable="false"/>
+                                    Отношение ангалов к остальным расам континента крайне пренебрежительное: для них представители других народов — лишь помеха на пути к охоте в землях этих государств.
+                                    Расширение охотничьих угодий — главная цель, к которой стремится королева Пустошей.
+                                    Те немногие попытки вступить в контакт с ангалами, предпринятые другими расами, заканчивались нападением на нежданных гостей, так как мужчины просто не знают, как им поступать в этих ситуациях, постоянно оглядываясь назад и думая, за что им может прилететь от надсмотрщиц и хозяек; единственным выходом остаётся убийство чужаков и сокрытие данного инцидента в тайне от женщин. 
+                            </p>
+                            
                         </div>
                     </div>
                 </div>
