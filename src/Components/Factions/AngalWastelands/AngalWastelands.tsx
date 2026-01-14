@@ -8,9 +8,10 @@ import WastelandImage2 from "../../../Images/WastelandImages/RegionMother.jpg";
 import WastelandImage3 from "../../../Images/WastelandImages/AngalsMother.jpg";
 import WastelandImage4 from "../../../Images/WastelandImages/DothersOfMother.jpg";
 import WastelandImage5 from "../../../Images/WastelandImages/InlandWastelands.jpg";
-import WastelandImage6 from "../../../Images/WastelandImages/CentralWastelands.jpg";
-import WastelandImage7 from "../../../Images/WastelandImages/OuterWastelands.jpg";
-import WastelandImage8 from "../../../Images/WastelandImages/СhronicleOfWastelandsOfAngals.png";
+import WastelandImage6 from "../../../Images/WastelandImages/AngalSoldier.jpg";
+import WastelandImage7 from "../../../Images/WastelandImages/CentralWastelands.jpg";
+import WastelandImage8 from "../../../Images/WastelandImages/OuterWastelands.jpg";
+import WastelandImage9 from "../../../Images/WastelandImages/СhronicleOfWastelandsOfAngals.png";
 
 export const AngalWastelands = () => {
     
@@ -88,6 +89,10 @@ export const AngalWastelands = () => {
                                     Конечно, мужчины сопротивлялись, но все попытки мятежей пресекались на корню ещё до их начала.
                                     Когда Внутренние пустоши были заселены вновь и произошло массовое патриархальное восстание, Мать отдала приказ Дочерям уничтожить не только всех заговорщиков, но и большую часть мужского контингента в этой части Дома.
                                     А спустя долгое время демонстративные устрашения, а попросту казни незначительных групп мужчин, стали происходить на постоянной основе.
+                            </p>
+
+                            <p> 
+                                <img className={classes.imageHorizontally} src={WastelandImage6} alt="WastelandImage6" draggable="false"/>
                                     Сейчас во Внутренних пустошах располагается главный штаб армии ангалов; здесь проходят обучение молодые солдаты, вступившие на этот путь, и тут же выстраивается огромная сеть из дозорных башен и фортов на основании руин от оставшихся величественных построек предков.
                                     Сама же армия представляет из себя в большей массе простых охотников — тех, кто после первой своей охоты сразу же выбрал службу, или тех, кто, набравшись опыта в выслеживании добычи, решил покинуть свои семьи.
                                     Они снаряжены либо фамильными охотничьими ножами, кои получают при первой охоте, или же метательным оружием, напоминающим дротики.
@@ -97,7 +102,7 @@ export const AngalWastelands = () => {
                             </p>
                           
                             <p>
-                                <img className={classes.imageHorizontally} src={WastelandImage6} alt="WastelandImage6" draggable="false"/>
+                                <img className={classes.imageHorizontally} src={WastelandImage7} alt="WastelandImage7" draggable="false"/>
                                     Центральные пустоши — огромная территория, населённая немногочисленными кочевыми группами пастухов.
                                     Они разводят скот для пропитания и фамильяров для ангалимов, находясь в постоянном движении со своими стадами и перемещаясь с места на место в поисках водоёмов и плодородных земель для скота.
                                     Буквально за сутки они могут собрать или разобрать свои небольшие жилища, возводимые из ветвей деревьев и шкур животных, а затем моментально отправиться в путь.
@@ -105,7 +110,7 @@ export const AngalWastelands = () => {
                             </p>
                             
                             <p>
-                                <img className={classes.imageHorizontally} src={WastelandImage7} alt="WastelandImage7" draggable="false"/>
+                                <img className={classes.imageHorizontally} src={WastelandImage8} alt="WastelandImage8" draggable="false"/>
                                     Внешние пустоши — практически пустые земли; ангалы здесь не обитают, из-за чего в этом крае полно дичи, за которой и устремляются охотники.
                                     Многие ангалиты, потерявшие рассудок по каким-то причинам, уходят именно сюда, собираясь в стаи.
                                     Что, в свою очередь, становится первым барьером для наступающих врагов Пустоши ангалов с севера.
@@ -113,7 +118,7 @@ export const AngalWastelands = () => {
                             </p>
                             
                             <p>
-                                <img className={classes.imageVerticalCenter} src={WastelandImage8} alt="WastelandImage8" draggable="false"/>
+                                <img className={classes.imageVerticalCenter} src={WastelandImage9} alt="WastelandImage9" draggable="false"/>
                                     Отношение ангалов к остальным расам континента крайне пренебрежительное: для них представители других народов — лишь помеха на пути к охоте в землях этих государств.
                                     Расширение охотничьих угодий — главная цель, к которой стремится королева Пустошей.
                                     Те немногие попытки вступить в контакт с ангалами, предпринятые другими расами, заканчивались нападением на нежданных гостей, так как мужчины просто не знают, как им поступать в этих ситуациях, постоянно оглядываясь назад и думая, за что им может прилететь от надсмотрщиц и хозяек; единственным выходом остаётся убийство чужаков и сокрытие данного инцидента в тайне от женщин. 
