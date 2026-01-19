@@ -13,7 +13,8 @@ import InmarImage7 from "../../../Images/InmarImages/East.jpg";
 import InmarImage8 from "../../../Images/InmarImages/Southwest.jpg";
 import InmarImage9 from "../../../Images/InmarImages/Southeast.jpg";
 import InmarImage10 from "../../../Images/InmarImages/SecretOrder.jpg";
-import InmarImage11 from "../../../Images/InmarImages/СhronicleOfTheKingdomInmar.png";
+import InmarImage11 from "../../../Images/InmarImages/SoldierOfInmar.jpg";
+import InmarImage12 from "../../../Images/InmarImages/СhronicleOfTheKingdomInmar.png";
 
 export const KingdomInmar = () => {
     
@@ -38,127 +39,155 @@ export const KingdomInmar = () => {
                     <div className={classes.contentScrollFaction}>   
                         <div>
                             <h1>Королевство Инмар</h1>
-                            <img className={classes.imageHorizontally} src={InmarImage1} alt="InmarImage1" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque
-                            , dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora!
-                            Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipi
-                            t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
-                            e, inventore laboriosam perferendis sed doloribus?
-                            <img className={classes.imageHorizontally} src={InmarImage2} alt="InmarImage2" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque
-                            , dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora!
-                            Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipi
-                            t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
-                            e, inventore laboriosam perferendis sed doloribus?
-                            <img className={classes.imageHorizontally} src={InmarImage3} alt="InmarImage3" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque
-                            , dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora!
-                            Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipi
-                            t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
-                            e, inventore laboriosam perferendis sed doloribus?
-                            <img className={classes.imageHorizontally} src={InmarImage4} alt="InmarImage4" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque
-                            , dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora!
-                            Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipi
-                            t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
-                            e, inventore laboriosam perferendis sed doloribus?
-                            <img className={classes.imageVerticalRight} src={InmarImage5} alt="InmarImage5" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque
-                            , dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora!
-                            Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipi
-                            t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
-                            e, inventore laboriosam perferendis sed doloribus?
-                            <img className={classes.imageHorizontally} src={InmarImage6} alt="InmarImage6" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque
-                            , dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora!
-                            Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipi
-                            t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
-                            e, inventore laboriosam perferendis sed doloribus?
-                            <img className={classes.imageHorizontally} src={InmarImage7} alt="InmarImage7" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque
-                            , dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora!
-                            Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipi
-                            t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
-                            e, inventore laboriosam perferendis sed doloribus?
-                            <img className={classes.imageHorizontally} src={InmarImage8} alt="InmarImage8" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque
-                            , dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora!
-                            Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipi
-                            t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
-                            e, inventore laboriosam perferendis sed doloribus?
-                            <img className={classes.imageHorizontally} src={InmarImage9} alt="InmarImage9" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque
-                            , dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora!
-                            Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipi
-                            t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
-                            e, inventore laboriosam perferendis sed doloribus?
-                            <img className={classes.imageHorizontally} src={InmarImage10} alt="InmarImage10" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque
-                            , dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora!
-                            Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipi
-                            t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
-                            e, inventore laboriosam perferendis sed doloribus?
-                            <img className={classes.imageVerticalCenter} src={InmarImage11} alt="InmarImage11" draggable="false"/>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Debitis nemo velit ullam dolore 
-                            repellendus cumque earum dolores quae odio et distinctio 
-                            suscipit quaerat quo asperiores odit, architecto rem laudantium iusto!
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, quasi perspiciatis doloremque itaque
-                            , dicta deserunt omnis ab impedit debitis architecto nisi necessitatibus natus maxime repellat temporibus tempora!
-                            Itaque, quia. Soluta!
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia modi suscipi
-                            t tempora natus, rerum quis nam quisquam perspiciatis ducimus iusto eum consectetur, cupiditate repudianda
-                            e, inventore laboriosam perferendis sed doloribus?
+                            
+                            <p>
+                                <img className={classes.imageHorizontally} src={InmarImage1} alt="InmarImage1" draggable="false"/>
+                                    В центре континента, на Инмарской равнине, расположилось Королевство Инмар.
+                                    С севера оно защищено неприступными скалами по берегам реки Тамиз, а с юга врезается в воды Живого моря и жёлтые пески Великой пустыни, где на восточных границах всматривается в высокие каменные башни Пустоши ангалов.
+                                    Инмар — государство с очень жёсткими законами, где всё контролируется Высшим советом, органом власти, имеющим влияние не меньше, чем у самого короля.
+                                    Но у правителя есть ещё и тайный инструмент управления королевством, скрытый от простого народа, — Орден Ключей.
+                                    А духовенство обладает огромным влиянием на людей и жизненный уклад королевства.
+                                    Сейчас королевство состоит из шести регионов с центрами власти в самых больших их городах.
+                            </p>
+                            
+                            <p>
+                                <img className={classes.imageHorizontally} src={InmarImage2} alt="InmarImage2" draggable="false"/>
+                                    Король Диперанг восседает во дворце столицы и одобряет законы, выдвинутые Высшим советом, в составе которого 24 участника — по четыре от каждого региона королевства.
+                                    В них входит по одному представителю от духовенства, Ордена, знати и армии; руководит же всем этим ежегодно избираемый глава посредством голосования участниками совета.
+                                    Из Зала Советов исходят законы для всего королевства, включающие в себя такие аспекты жизнедеятельности, как налоги, распределение продовольствия, установление цен, торговые отношения, дела армии и даже правосудие.
+                                    Сам же правитель Инмара может только утверждать выдвинутые советом законы, однако и он имеет власть в королевстве: ему подчинены такие вопросы, как объявление войны, подписание мира, предложение указов на рассмотрение в совете.
+                                    Такой недлинный список влияния короля с лихвой компенсируется подковёрными интригами и дёрганием нужных рычагов у нужных столпов власти в Инмаре через представителей Ордена Ключей.
+                                    Они подчиняются ему напрямую, но также имеют огромную власть и свободу в королевстве; на самом деле они не подчиняются никому, а связь с королём — это лишь исторически сложившаяся закономерность и взаимовыгодное предприятие,
+                                    где Диперанг, имея скрытые возможности Ордена Ключей, может давить и вынуждать неугодных чиновников к принятию законов в свою пользу.
+                                    А ключники, в свою очередь, получают покровительство короля и имеют доступ к казне государства — опять же неофициально, но на деле контролируют все финансы.
+                                    Духовенство, или праведники, как их здесь называют, в свою очередь имеет большое влияние на умы простого народа.
+                                    Их религия, посвящённая вере в божественную сущность Белого Быка, — одна из тех незыблемых вещей, без которой Королевство Инмар представить нельзя.
+                            </p>
+
+                            <p>
+                                <img className={classes.imageHorizontally} src={InmarImage3} alt="InmarImage3" draggable="false"/>
+                                    Модхал как столица Инмара закрепился две с половиной тысячи лет назад, когда между городами-государствами шла сорокалетняя война, как раз и приведшая впоследствии к образованию самого королевства и его столпов власти.
+                                    В наше время этот город стал центром всего государства с резиденцией короля и залом советов во дворце.
+                                    Все налоги стекаются сюда в казначейство; здесь располагается главный штаб армии и Ордена Ключей, а количество знати и высших чинов намного превышает их число в других городах королевства.
+                                    Большинство жителей столицы — не из простого народа, а происходят из ветвей знатных родов, которым принадлежат практически все значимые владения и хозяйства по всей стране.
+                            </p>
+                            
+                            <p>
+                                <img className={classes.imageHorizontally} src={InmarImage4} alt="InmarImage4" draggable="false"/>
+                                    Посреди Инмарской равнины, выросший из лесной чащи, город Киллат — олицетворение веры и место паломничества всех исповедующих религию Белого Быка.
+                                    Неподалёку от городских стен, в глубине леса, находятся древние руины храмов и статуи различных божеств, возглавляемые огромным монументом Быка из белого камня.
+                                    Здесь возносят молитвы божеству и припадают к священным камням тысячи паломников со всех частей Инмара.
+                                    Высокие белоснежные шпили церквей и храмов возвышаются на горизонте, возвещая своим видом всех о том, что здесь находится центр духовенства.
+                                    Многочисленные подворья монастырей кормят весь регион, а в их стенах обучаются тысячи праведников, чтобы нести свет Быка по всему королевству и за его пределами.
+                                    В каждом, более-менее крупном городе (и не только) по всему королевству есть эмиссары духовенства и возведены церкви или храмы, но здесь, в Киллате, их больше всего; громкий гул труб, разносимый оттуда по всей округе, возносит тем самым почести божеству, напоминая звуком громовое мычание разъярённого быка.
+                            </p>
+
+                            <p>
+                                <img className={classes.imageVerticalRight} src={InmarImage5} alt="InmarImage5" draggable="false"/>
+                                    В самом большом храме находится резиденция Первого Святейшего, главы всей церкви Белого Быка, который управляет отсюда всеми праведниками.
+                                    В церковной иерархии существует несколько чинов. Помимо Первого Святейшего, это вторые по значимости сказители — те, кто доносит волю главы церкви до всех остальных чинов.
+                                    За ними идут указчики — участники Высшего совета и их помощники; далее — настоятели храмов и монастырей, принимающие и воспитывающих новых последователей веры; и последние, но самые многочисленные, — праведники — мужчины и женщины, получившие этот чин после выпуска из семинарии.
+                                    Кроме простых обездоленных и людей, решивших по каким-либо причинам связать свою жизнь с церковью, под покровительство Быка вступают и множество представителей знати. В основной своей массе это юные девочки и мальчики, чьи родители из знатных родов решили обеспечить своим наследникам возможность получить более высокие чины и звания среди аристократии.
+                                    Так как церковное образование содержит обширные знания не только в сфере религии, но и в большинстве существующих наук, к тому же человек с благородными корнями, имеющий связи в духовенстве, имеет большие возможности в структуре власти Инмара.
+                                    Праведники и церковь также выполняют роль лекарей: к ним приходят все, у кого есть проблемы со здоровьем; также они присутствуют и в армии Инмара, ухаживая за ранеными солдатами.
+                                    Простыми словами, церковь Белого Быка — это храм веры, науки и исцеления, где рады каждому человеку, пришедшему за помощью или наставлением.
+                            </p>
+                            
+                            <p>
+                                <img className={classes.imageHorizontally} src={InmarImage6} alt="InmarImage6" draggable="false"/>
+                                    На востоке Инмара, в окружении золотых полей, стоит город Кива — кормилец всего королевства.
+                                    Здесь занимаются земледелием и взращивают хлеба; сотни ферм снабжают государство мясом и продуктами, а на полях перегоняются огромные табуны лошадей, которых здесь специально разводят для армии.
+                                    Самые чистокровные породы скакунов выводятся здешними конюхами на зависть всему Танаху.
+                                    А ещё тут расположены лучшие кавалерийские школы с самыми опытными инструкторами.
+                                    Сюда со всего королевства съезжаются солдаты из знатных семей для прохождения обучения и покупки подготовленных боевых жеребцов.
+                                    В Киве живут люди, закалённые западным ветром и жарким солнцем, в основе жизненного уклада которых стоит служение своему народу тяжёлым трудом, будь то возделывание полей или же управление огромным поголовьем скота.
+                            </p>
+                            
+                            <p>
+                                <img className={classes.imageHorizontally} src={InmarImage7} alt="InmarImage7" draggable="false"/>
+                                    Столицей оружейного дела и всех тех, кто связан с производством снаряжения для армии Инмара,
+                                    является Явис — город, расположенный на западе королевства. Всё — от простых ножей до искусно созданных доспехов с изящным узором — производится здесь.
+                                    По всей его территории рассыпано множество лавок, ремесленных мастерских и кузниц, а жители, управляющие всем этим, объединяются в большие артели, чтобы хоть как-то противостоять алчности аристократии Инмара, жаждущей прибрать к рукам их дело жизни.
+                                    Скотоводство и земледелие также имеют место в этом регионе, но в незначительных объёмах.
+                                    Явис — это единственное место, где церквей, храмов и приходов очень мало, но зато его очень любят ключники.
+                                    Действительно, Орден в этом городе чувствует себя весьма вальяжно и предпочитает торговать напрямую со свободными от притязаний знати производителями, закупая у них снаряжение и прочие товары в огромных объёмах.
+                                    Работа кипит постоянно, и Явис остаётся, пожалуй, самым шумным городом в королевстве.
+                            </p>
+
+                            <p>
+                                <img className={classes.imageHorizontally} src={InmarImage8} alt="InmarImage8" draggable="false"/>
+                                    Сикил — город-флагман, в котором спускают на воду все боевые корабли флота королевства, расположенный на берегу Живого моря.
+                                    Он знаменует собой военно-морскую мощь Инмара и напоминает всем, кто намеревается испытать удачу, напав на государство с моря.
+                                    Здешний колорит поражает своей двоякостью: днём по брусчатым улицам величаво вышагивают адмиралы в парадной форме, а ночью творится разврат и порок, заманивающий в свои сети молодых моряков.
+                                    Местные жители в основном работают либо в море на промыслах, либо трудятся на корабельных верфях.
+                                    За стенами этого города начинаются зловещие Пустоши ангалов, откуда лишь доносится жуткий гул ветра.
+                            </p>
+                            
+                            <p>
+                                <img className={classes.imageHorizontally} src={InmarImage9} alt="InmarImage9" draggable="false"/>
+                                    Бастион Лутут и одноимённый портовый город, основанный Орденом Ключей, чьи представители тогда по приказу короля должны были расширить земли для вот-вот зарождающегося королевства.
+                                    Рыбный промысел здесь приобрёл грандиозные масштабы, а в гавани пришвартованы самые тяжёлые и внушительные военные корабли, дабы безумный сосед в лице Конфедерации племён не смог и подумать об атаке на королевство с моря.
+                                    Это первый город, который встречает караваны с юга, и поэтому здесь так сильно развита торговля.
+                                    Его жители очень подозрительны и недоверчивы к чужакам, видимо, из-за того что рядом проходит граница, а за стенами уже простирается Великая пустыня, иногда приносящая песок свирепыми южными ветрами на улицы города.
+                                    Лутут наполнен ключниками, солдатами и моряками, готовыми незамедлительно отреагировать и защитить его, если Конфедерация всё же решится пойти на штурм города.
+                            </p>
+                            
+                            <p>
+                                <img className={classes.imageHorizontally} src={InmarImage10} alt="InmarImage10" draggable="false"/>
+                                    Когда королевства ещё не существовало, будущий король Алгорех положил начало основанию Тёмной канцелярии — Ордена Ключей, с помощью которого вознамерился остановить распри между городами-государствами, скреплёнными шатким союзом.
+                                    Это была своего рода его маленькая армия, подчиняющаяся напрямую ему, с помощью которой он мог тайно убирать неугодных правителей и подкупать нужных людей в соседних с Модхалом городах.
+                                    Двенадцать лет щупальца ключников проникали повсюду и укрепляли могущество Алгореха в тогдашнем союзе городов, и когда все стоявшие на пути к абсолютной власти были устранены или куплены членами ордена, а на юге ими же был основан Лутут,
+                                    было объявлено о становлении Королевства Инмар, первым королём которого и стал предприимчивый Алгорех.
+                                    С тех пор прошло несколько тысяч лет, но орден всегда оставался цепным псом всех королей — и нынешнего Диперанга не исключение.
+                                    Ключники участвовали во многих авантюрах предводителей Инмара: похищали и устраняли нежелательных для власти личностей, подкупали знать, сопротивлявшейся тем или иным законам, выдвигали ультиматумы торговым артелям и однажды даже участвовали в жестоком подавлении мятежа, который чуть не привёл к революции, вырезая всех зачинщиков и их последователей.
+                                    Так, столетие за столетием, орден приобрёл огромное влияние в королевстве и стал самоуправляемой могущественной организацией, члены которой ныне восседают в Высшем совете.
+                                    Сейчас ключники также исполняют тайные приказы короля, но уже с оглядкой на свою выгоду.
+                                    Орден управляется шестью магистрами — по числу регионов в королевстве, каждый из которых отвечает за свой регион.
+                                    Но главный штаб находится в столице, Модхале, где на тайных собраниях и происходит регулирование всех аспектов жизни ордена.
+                                    При этом среди них нет никаких противоречий; все они служат одному делу и одной цели, цели, которой не знает никто из простых смертных и даже сам король.
+                                    Что происходит в ордене и как он устроен, известно немного; а те, кто знал хоть что-то, — их останки уже давно склёваны воронами в полях или же они бесследно исчезали.
+                                    В легендах и байках рассказывается о том, как вступают в организацию: по ним следует, что неофит, желающий посвятить свою жизнь ключникам, должен отречься от прошлой жизни и отдать часть своего имущества в качестве платы за вступление.
+                                    Но этого будет мало, чтобы вас приняли в орден, — необходимо ещё доказать свою преданность; как это будет происходить, решают магистры, и это останется тайной для неофита до момента, когда всё произойдёт.
+                                    Это может быть шпионаж, воровство или же заказное убийство; вопрос лишь в том, сможет ли адепт пройти испытание, когда это потребуется от него.
+                                    В случае успешного прохождения проверки неофит отказывается от своего прежнего имени и получает новое — имя, о котором будут знать только члены ордена; для остальных он станет человеком тысячи имён.
+                                    Затем начинается церемония инициации, где один из магистров даёт в руки вступающему открытый железный замок с ключом; неофит закрывает замок и отдаёт его обратно магистру, а ключ бросает в большую серебряную чашу.
+                                    Далее ему вручают церемониальный кинжал, которым он должен разрезать свою правую ладонь, после чего ему необходимо сначала вытянуть этой рукой любой из множества ключей из чаши, затем сжать его, тем самым окропляя его своей кровью, и произнести слова клятвы верности Ордену Ключей — и бросить ключ обратно.
+                                    Инициацию всегда проходят несколько неофитов, поэтому ключей в чаше обычно тоже много; при этом не имеет значения, какой ключ кто вытянет, что символизирует их как единое целое, а сама чаша — общее дело; замок же олицетворяет жизнь, вручаемую ордену без остатка.
+                                    Конечно, так ли это на самом деле происходит, никто не знает: возможно, сами ключники распространяют такие слухи, чтобы напугать людей, а может, это и в действительности так.
+                                    Известно одно: большинство людей Инмара даже не догадывается, для чего на гербе их королевства сверху под короной изображён маленький ключ.
+                            </p>
+
+                            <p>
+                                <img className={classes.imageHorizontally} src={InmarImage11} alt="InmarImage11" draggable="false"/>
+                                    Армия Инмара представляет собой разнообразные войска, в общей массе которых служат в основном выходцы из простого народа.
+                                    Есть те, кто вступил в войска, чтобы не умереть с голода, и существуют те, кто осознанно выбрал эту нелёгкую стезю.
+                                    Те, кто не смог ужиться в обычной жизни и не избрал путь праведника, поступают на службу, чтобы хоть как-то поправить свои дела, но ценой жизни на полном обеспечении государства остаётся возможная смерть в бою.
+                                    Такие солдаты вооружаются простым в производстве древковым оружием — копьями, — и тем, что придётся по цене для возможного ближнего боя, когда противник подходит вплотную: топорами, кистенями и даже сельскохозяйственными инструментами.
+                                    Облачение у них самое простое: стандартный стёганый доспех, а поверх — накидка-сюрко с гербом королевства, которые им выдают при поступлении на службу (как и копья); остальное солдаты покупают сами.
+                                    Далее идут стрелки — воины в тех же стёганках и сюрко, но уже имеющие на вооружении для ближнего боя короткие мечи, а стрелковым оружием, которое они используют, являются обыкновенные длинные луки.
+                                    За ними следуют сыновья и родственники купцов и торговцев, а также местных господ, имеющих свои лавки или ремесленные мастерские.
+                                    Закованные в стальные кирасы и шлемы, такие воины имеют на вооружении гораздо более качественное оружие — в основном добротные полуторные мечи, но встречаются и те, кто предпочитает алебарды, двуручные мечи и даже арбалеты.
+                                    Элитой армии королевства становятся те, чья родословная имеет благородные корни: знать высшего сословия нанимает лучших наставников ко двору и отправляет своих сыновей в лучшие кавалерийские школы и военные академии, где они проходят полную боевую подготовку.
+                                    Для большинства из них это честь и возможность прославить свой род в веках, а в случае успешной карьеры — получить высокие звания в армии или же высокий чин во власти.
+                                    Это не просто солдаты, а обученные воины, которые знают, как ведёт себя противник на поле боя и как его уничтожить.
+                                    Полный стальной доспех, рыцарские щиты и копья, а также мечи производства лучших мастеров, верхом на резвом боевом коне, также облачённом в сталь, — вот так выглядят лучшие сыны Королевства Инмар.
+                                    По закону их можно призывать только в случае войны; в остальное же время они проводят несколько раз в месяц военные сборы с себе подобными для слаженности в условиях боевых действий — больше похожие на представление, где кавалерия гоняет по полю простых пехотинцев из низших сословий.
+                                    Тактика, которой придерживаются генералы войск Инмара, — это планомерное наступление по всем флангам одновременно, где лучники обрушивают стрелы на головы противников, а затем пехота идёт в наступление; но для того чтобы переломить ход событий в свою пользу, иногда в бой бросают кавалерию, ослабляя фланги или раскалывая вражеский строй надвое.
+                                    Оборонительную стратегию в Инмаре презирают, и если используют, то только в крайней нужде, изматывая врагов короткими атаками и вынуждая их атаковать, чтобы затем заманить в ловушку и истребить, окружив с флангов.
+                                    Однако помимо основной армии, в Инмаре есть также и войска ордена, которые не подчиняются военному командованию, но могут принимать участие на их стороне, хотя их тактика далека от той, которую используют в армии.
+                                    Их конёк — это засады и внезапные нападения на малочисленные отряды противника, застигая тех врасплох.
+                                    Никто в здравом уме не рискнёт просто напасть на Королевство Инмар, зная, что их может ожидать здесь отпор, способный изменить статус атакующего на статус обороняющегося.
+                            </p>
+                            
+                            <p>
+                                <img className={classes.imageVerticalCenter} src={InmarImage12} alt="InmarImage12" draggable="false"/>
+                                    Остальные расы для инмарцев считаются проклятыми их божеством — Белым Быком.
+                                    Это является одной из тех причин, по которой королевство относится ко всем с огромной настороженностью.
+                                    С некоторыми государствами, конечно, идёт торговля, но для купцов, следующих в Инмар, это становится тем ещё испытанием: постоянные проверки и выдача на границе медальонов, которые ни при каких условиях нельзя снимать с шеи, пока ты находишься на территории королевства, превращают торговое путешествие в неприятное обязательство.
+                                    В остальном простые люди Инмара даже с интересом относятся к представителям других рас и народов, с религиозным страхом разглядывая их и в то же время пытаясь узнать получше.
+                                    Но из-за сложного законодательного устройства и фанатичной религиозности, скорее всего, отношение к другим таким и останется; не стоит рассчитывать на какие-либо изменения в ближайшей перспективе.
+                            </p>
+                            
                         </div>
                     </div>
                 </div>
