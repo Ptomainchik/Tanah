@@ -144,13 +144,13 @@ export const HomePage = () => {
 
                 <div className={classes.backgroundBlockText}>
                     <div>
-                        <h1>Мир Танаха</h1>
 
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque doloribus voluptates consequatur aliquam vero assumenda rem adipisci. 
-                        Distinctio, quaerat architecto omnis,
-                         obcaecati neque ratione blanditiis quo quia, fugit molestias sed!
-                    </p>
+                        <h1>Библиотека</h1>
+
+                            <p>
+                                Свитки Танаха хранят в себе истину: здесь запечатлен порядок фракций, суть рождённых миром рас и летопись их неизбежных столкновений.
+                            </p>
+
                     </div>
                     
 
