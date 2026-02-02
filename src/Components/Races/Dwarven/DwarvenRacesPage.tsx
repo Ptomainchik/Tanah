@@ -27,9 +27,9 @@ export const DwarvenRacesPage = () => {
             <div className={classes.overlayBlockContent}>
                 <div className={classes.blockContentBearPeaks}>
                     <div className={classes.contentScrollRace}>
+
                         <h1>Гномы</h1>
-                        <p>
-                            
+            
                             <p>
                                 <img className={classes.imageVerticalLeft} src={DwarvenRace1} alt="DwarvenRace1" draggable="false"/>
                                     Представители расы гномов — это широкоплечие, коренастые мужчины и женщины невысокого роста с невероятной выдержкой к холодному климату. 
@@ -65,7 +65,6 @@ export const DwarvenRacesPage = () => {
                                     Проще говоря, это часть их суровой, но удивительной сущности. 
                             </p>
 
-                        </p>
                     </div>
                 </div>
             </div>

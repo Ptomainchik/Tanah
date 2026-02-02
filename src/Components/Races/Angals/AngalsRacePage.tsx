@@ -27,8 +27,8 @@ export const AngalsRacePage = () => {
             <div className={classes.overlayBlockContent}>
                 <div className={classes.blockContentWasteland}>
                     <div className={classes.contentScrollRace}>
+
                         <h1>Ангалы</h1>
-                        <p>
                             
                             <p>
                                 <img className={classes.imageVerticalLeft} src={AngalRace1} alt="AngalRace1" draggable="false"/>
@@ -70,7 +70,6 @@ export const AngalsRacePage = () => {
                                     Поэтому первая охота так важна в жизни мужчин-ангалов.
                             </p>
                             
-                        </p>
                     </div>
                 </div>
             </div>

@@ -25,8 +25,8 @@ export const MaatRacePage = () => {
             <div className={classes.overlayBlockContent}>
                 <div className={classes.blockContentMaat}>
                     <div className={classes.contentScrollRace}>
+
                         <h1>Маат</h1>
-                        <p>
 
                             <p>
                                 <img className={classes.imageVerticalLeft} src={MaatRace1} alt="HumanRace1" draggable="false"/>
@@ -40,7 +40,6 @@ export const MaatRacePage = () => {
                                     Так же быстро, как они появлялись, когда их случайно обнаруживали вне земель, покрытых вулканами, то столь же молниеносно и исчезали, словно гадюки, скрываясь в траве от потревоживших их испуганных путников.
                             </p>
                             
-                        </p>
                     </div>
                 </div>
             </div>

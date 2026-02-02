@@ -27,8 +27,9 @@ export const OrcRacePage = () => {
             <div className={classes.overlayBlockContent}>
                 <div className={classes.blockContentBlackForest}>
                     <div className={classes.contentScrollRace}>
+
                         <h1>Орки</h1>
-                        <p>
+
                             <p>
                                 <img className={classes.imageVerticalLeft} src={OrcRace1} alt="OrcRace1" draggable="false"/>
                                     Раса орков — это зеленокожие мужчины и женщины среднего роста с крепким телосложением. 
@@ -63,8 +64,6 @@ export const OrcRacePage = () => {
                                     Хотя другие убеждены в том, что это такая форма воспитания, которая даёт такие результаты. 
                             </p>
                             
-                            
-                        </p>
                     </div>
                 </div>
             </div>

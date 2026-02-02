@@ -27,8 +27,8 @@ export const ElvenRacePage = () => {
             <div className={classes.overlayBlockContent}>
                 <div className={classes.blockContentEmpire}>
                     <div className={classes.contentScrollRace}>
+
                         <h1>Эльфы</h1>
-                        <p>
 
                             <p>
                                 <img className={classes.imageVerticalLeft} src={ElvenRace1} alt="ElvenRace1" draggable="false"/>
@@ -67,7 +67,6 @@ export const ElvenRacePage = () => {
                                     По сути, и те и другие делают одно и то же, но с разным подходом: первые, подавляя эмоции, исходят из рациональности, а вторые, напротив, погружаясь в переживания целиком и полностью. 
                             </p>
                             
-                        </p>
                     </div>
                 </div>
             </div>

@@ -30,8 +30,8 @@ export const HumanRacesPage = () => {
             <div className={classes.overlayBlockContent}>
                 <div className={classes.blockContentHistory}>
                     <div className={classes.contentScrollRace}>
+
                         <h1>Люди</h1>
-                        <p>
 
                             <p>
                                 <img className={classes.imageVerticalLeft} src={HumanRace1} alt="HumanRace1" draggable="false"/>
@@ -76,7 +76,6 @@ export const HumanRacesPage = () => {
                                     Большинство из них ищет высшего просветления и осознания единства с миром путём обретения внутреннего покоя через отвержение законов и постулатов. 
                             </p>
                             
-                        </p>
                     </div>
                 </div>
             </div>
