@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TanahLibrary/static/css/main.7400fe82.css",
-    "main.js": "/TanahLibrary/static/js/main.f8a01570.js",
+    "main.css": "/TanahLibrary/static/css/main.d548ff49.css",
+    "main.js": "/TanahLibrary/static/js/main.b4caceb3.js",
     "static/js/453.971d4f6e.chunk.js": "/TanahLibrary/static/js/453.971d4f6e.chunk.js",
     "static/media/MapOfTanah.png": "/TanahLibrary/static/media/MapOfTanah.6c04293f0394bd46a989.png",
     "static/media/BackgroundHomePage.jpg": "/TanahLibrary/static/media/BackgroundHomePage.2bdc0b0477701ab0e9af.jpg",
@@ -137,12 +137,12 @@
     "static/media/ChiefOfThieves.jpg": "/TanahLibrary/static/media/ChiefOfThieves.c2700ac82391ec3e35a5.jpg",
     "static/media/Star.png": "/TanahLibrary/static/media/Star.784f9c3463ef66ab4f9b.png",
     "index.html": "/TanahLibrary/index.html",
-    "main.7400fe82.css.map": "/TanahLibrary/static/css/main.7400fe82.css.map",
-    "main.f8a01570.js.map": "/TanahLibrary/static/js/main.f8a01570.js.map",
+    "main.d548ff49.css.map": "/TanahLibrary/static/css/main.d548ff49.css.map",
+    "main.b4caceb3.js.map": "/TanahLibrary/static/js/main.b4caceb3.js.map",
     "453.971d4f6e.chunk.js.map": "/TanahLibrary/static/js/453.971d4f6e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7400fe82.css",
-    "static/js/main.f8a01570.js"
+    "static/css/main.d548ff49.css",
+    "static/js/main.b4caceb3.js"
   ]
 }
