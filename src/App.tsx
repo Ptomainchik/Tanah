@@ -17,7 +17,7 @@ import { MaatRacePage } from './Components/Races/Maat/MaatRacePage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/TanahLibrary">
       <Routes>
         <Route path="/" element={<HomePage/>}/>
         <Route path="history" element={<HistoryPage/>}/>
