@@ -12,9 +12,19 @@ import WastelandImage6 from "../../../Images/WastelandImages/AngalSoldier.jpg";
 import WastelandImage7 from "../../../Images/WastelandImages/CentralWastelands.jpg";
 import WastelandImage8 from "../../../Images/WastelandImages/OuterWastelands.jpg";
 import WastelandImage9 from "../../../Images/WastelandImages/СhronicleOfWastelandsOfAngals.png";
+import { useState } from "react";
 
 export const AngalWastelands = () => {
+    const [stateСhronicle, setStateChronicle] = useState(false);
     
+    function handleOpenChronicle () {
+        setStateChronicle(true);
+    };
+
+    function handleCloseСhronicle () {
+        setStateChronicle(false);
+    };
+
     const navigate = useNavigate();
 
     function handleFactionsPageTransition() {
@@ -118,7 +128,7 @@ export const AngalWastelands = () => {
                             </p>
                             
                             <p>
-                                <img className={classes.imageVerticalCenter} src={WastelandImage9} alt="WastelandImage9" draggable="false"/>
+                                <img className={classes.imageVerticalCenter} style={{cursor: "zoom-in" , pointerEvents: stateСhronicle === false ? "auto" : "none"}} onClick={handleOpenChronicle} src={WastelandImage9} alt="WastelandImage9" draggable="false"/>
                                     Отношение ангалов к остальным расам континента крайне пренебрежительное: для них представители других народов — лишь помеха на пути к охоте в землях этих государств.
                                     Расширение охотничьих угодий — главная цель, к которой стремится королева Пустошей.
                                     Те немногие попытки вступить в контакт с ангалами, предпринятые другими расами, заканчивались нападением на нежданных гостей, так как мужчины просто не знают, как им поступать в этих ситуациях, постоянно оглядываясь назад и думая, за что им может прилететь от надсмотрщиц и хозяек; единственным выходом остаётся убийство чужаков и сокрытие данного инцидента в тайне от женщин. 
@@ -133,6 +143,8 @@ export const AngalWastelands = () => {
                 <img className={classes.sideDecorationLeftWastelands} src={Column} alt="Column" draggable="false"/>
 
             <button className={classes.transitionButton} onClick={handleFactionsPageTransition}>Главная</button>
+
+            {stateСhronicle && <div className={classes.contentScrollImageZoom}><img className={classes.imageZoom} src={WastelandImage9} alt="WastelandImage9" draggable="false"/><p className={classes.closeImageZoom} onClick={handleCloseСhronicle}>×</p></div>}
 
         </div>
     )

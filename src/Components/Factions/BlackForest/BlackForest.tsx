@@ -16,9 +16,19 @@ import BlackForestImage10 from "../../../Images/BlackForestImages/WorkersCommuni
 import BlackForestImage11 from "../../../Images/BlackForestImages/Brigadier.jpg";
 import BlackForestImage12 from "../../../Images/BlackForestImages/OrcSoldier.jpg";
 import BlackForestImage13 from "../../../Images/BlackForestImages/СhronicleOfBlackForest.png";
+import { useState } from "react";
 
 export const BlackForest = () => {
+    const [stateСhronicle, setStateChronicle] = useState(false);
+        
+        function handleOpenChronicle () {
+            setStateChronicle(true);
+        };
     
+        function handleCloseСhronicle () {
+            setStateChronicle(false);
+        };
+
     const navigate = useNavigate();
 
     function handleFactionsPageTransition() {
@@ -151,7 +161,7 @@ export const BlackForest = () => {
                                     Раса орков обладает огромной силой, что компенсирует отсутствие регулярных войск. Способность этого народа в нужный час собрать несметное воинство заставляет другие государства всерьез опасаться армии Чернолесья 
                             </p>
 
-                                <img className={classes.imageVerticalCenter} src={BlackForestImage13} alt="BlackForestImage13" draggable="false"/>
+                                <img className={classes.imageVerticalCenter} style={{cursor: "zoom-in" , pointerEvents: stateСhronicle === false ? "auto" : "none"}} onClick={handleOpenChronicle} src={BlackForestImage13} alt="BlackForestImage13" draggable="false"/>
                             <p>
                                     Все расы, кроме гномов, относятся нейтрально к оркам; сами же орки отвечают тем же, а по большому счёту им всё равно, что происходит за пределами Чёрного Леса.
                                     Единственное государство, к которому они испытывают нескрываемую ненависть, — это Медвежьи Вершины. Не так давно шла война с ними, когда армия гномов вероломно напала на север королевства, вырезая семьи и сжигая целые поселения орков.
@@ -170,6 +180,8 @@ export const BlackForest = () => {
                 <img className={classes.sideDecorationLeftBlackForest} src={Tree} alt="Tree" draggable="false"/>
                 
                 <button className={classes.transitionButton} onClick={handleFactionsPageTransition}>Главная</button>
+
+                {stateСhronicle && <div className={classes.contentScrollImageZoom}><img className={classes.imageZoom} src={BlackForestImage13} alt="BlackForestImage13" draggable="false"/><p className={classes.closeImageZoom} onClick={handleCloseСhronicle}>×</p></div>}
         
         </div>
     )

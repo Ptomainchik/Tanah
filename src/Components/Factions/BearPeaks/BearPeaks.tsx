@@ -14,9 +14,19 @@ import BearPeaksImage8 from "../../../Images/BearPeaksImages/Kurkachi.jpg";
 import BearPeaksImage9 from "../../../Images/BearPeaksImages/GoldTower.jpg";
 import BearPeaksImage10 from "../../../Images/BearPeaksImages/RowsOfDwarves.jpg";
 import BearPeaksImage11 from "../../../Images/BearPeaksImages/СhronicleOfBearPeaks.png";
+import { useState } from "react";
 
 export const BearPeaks = () => {
+    const [stateСhronicle, setStateChronicle] = useState(false);
+        
+        function handleOpenChronicle () {
+            setStateChronicle(true);
+        };
     
+        function handleCloseСhronicle () {
+            setStateChronicle(false);
+        };
+
     const navigate = useNavigate();
 
     function handleFactionsPageTransition() {
@@ -175,7 +185,7 @@ export const BearPeaks = () => {
                             </p>
                             
                             <p>
-                                <img className={classes.imageVerticalCenter} src={BearPeaksImage11} alt="BearPeaksImage11" draggable="false"/>
+                                <img className={classes.imageVerticalCenter} style={{cursor: "zoom-in" , pointerEvents: stateСhronicle === false ? "auto" : "none"}} onClick={handleOpenChronicle} src={BearPeaksImage11} alt="BearPeaksImage11" draggable="false"/>
                                     Гномы относятся к другим расам на континенте нейтрально, вернее даже с интересом, но, естественно, их в большей мере интересует то, что они могут получить от тех или иных государств.
                                     Единственные, на кого гномы смотрят с презрением и настороженностью, — это орки. Постоянные стычки патрулей у подножия Медвежьих вершин, а также их коварные нападения на поселения шахтёров в прошлом вынудили короля отдать приказ о наступательных операциях, дабы сбить пыл своих безумных южных соседей.
                                     С практически всеми остальными государствами у гномов хорошие торговые отношения и даже открытые границы для гостей из этих стран.  
@@ -190,6 +200,8 @@ export const BearPeaks = () => {
                 <img className={classes.sideDecorationLeftBearPeaks} src={Mountian} alt="Mountian" draggable="false"/>
             
                 <button className={classes.transitionButton} onClick={handleFactionsPageTransition}>Главная</button>
+
+                {stateСhronicle && <div className={classes.contentScrollImageZoom}><img className={classes.imageZoom} src={BearPeaksImage11} alt="BearPeaksImage11" draggable="false"/><p className={classes.closeImageZoom} onClick={handleCloseСhronicle}>×</p></div>}
         
         </div>
     )

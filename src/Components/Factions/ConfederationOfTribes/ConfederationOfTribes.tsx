@@ -14,10 +14,19 @@ import ConfederationImage8 from "../../../Images/ConfederationImages/Kidul.jpg";
 import ConfederationImage9 from "../../../Images/ConfederationImages/TempleOfEmptiness.jpg";
 import ConfederationImage10 from "../../../Images/ConfederationImages/SoldierOfRegistan.jpg";
 import ConfederationImage11 from "../../../Images/ConfederationImages/СhronicleOfConfederationOfTribes.png";
-
+import { useState } from "react";
 
 export const ConfederationOfTribes = () => {
+    const [stateСhronicle, setStateChronicle] = useState(false);
+        
+        function handleOpenChronicle () {
+            setStateChronicle(true);
+        };
     
+        function handleCloseСhronicle () {
+            setStateChronicle(false);
+        };
+
     const navigate = useNavigate();
 
     function handleFactionsPageTransition() {
@@ -158,7 +167,7 @@ export const ConfederationOfTribes = () => {
                             </p>
                             
                             <p>
-                                <img className={classes.imageVerticalCenter} src={ConfederationImage11} alt="ConfederationImage11" draggable="false"/>
+                                <img className={classes.imageVerticalCenter} style={{cursor: "zoom-in" , pointerEvents: stateСhronicle === false ? "auto" : "none"}} onClick={handleOpenChronicle} src={ConfederationImage11} alt="ConfederationImage11" draggable="false"/>
                                     С большинством государств Конфедерация поддерживает отношения — ведь их караваны бывают даже на севере континента, — стараясь торговать со всеми, кто будет к ним благосклонен.
                                     Единственные, с кем у народов пустыни напряжённые, но всё-таки мирные отношения, — это Королевство Инмар, в связи с недавней войной и восстанием на севере в Кархине.
                                     Следуя своим безымянным учениям, все жители Конфедерации племён относятся к остальным расам как к равным себе народам и стараются в случае возникновения недопонимания разобраться в ситуации мирным путём.
@@ -173,6 +182,8 @@ export const ConfederationOfTribes = () => {
                 <img className={classes.sideDecorationLeftConfederation} src={Palm} alt="Palm" draggable="false"/>
             
             <button className={classes.transitionButton} onClick={handleFactionsPageTransition}>Главная</button>
+
+            {stateСhronicle && <div className={classes.contentScrollImageZoom}><img className={classes.imageZoom} src={ConfederationImage11} alt="ConfederationImage11" draggable="false"/><p className={classes.closeImageZoom} onClick={handleCloseСhronicle}>×</p></div>}
         
         </div>
     )

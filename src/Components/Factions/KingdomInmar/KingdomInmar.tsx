@@ -15,9 +15,19 @@ import InmarImage9 from "../../../Images/InmarImages/Southeast.jpg";
 import InmarImage10 from "../../../Images/InmarImages/SecretOrder.jpg";
 import InmarImage11 from "../../../Images/InmarImages/SoldierOfInmar.jpg";
 import InmarImage12 from "../../../Images/InmarImages/СhronicleOfTheKingdomInmar.png";
+import { useState } from "react";
 
 export const KingdomInmar = () => {
+    const [stateСhronicle, setStateChronicle] = useState(false);
+        
+        function handleOpenChronicle () {
+            setStateChronicle(true);
+        };
     
+        function handleCloseСhronicle () {
+            setStateChronicle(false);
+        };
+
     const navigate = useNavigate();
 
     function handleFactionsPageTransition() {
@@ -180,7 +190,7 @@ export const KingdomInmar = () => {
                             </p>
                             
                             <p>
-                                <img className={classes.imageVerticalCenter} src={InmarImage12} alt="InmarImage12" draggable="false"/>
+                                <img className={classes.imageVerticalCenter} style={{cursor: "zoom-in" , pointerEvents: stateСhronicle === false ? "auto" : "none"}} onClick={handleOpenChronicle} src={InmarImage12} alt="InmarImage12" draggable="false"/>
                                     Остальные расы для инмарцев считаются проклятыми их божеством — Белым Быком.
                                     Это является одной из тех причин, по которой королевство относится ко всем с огромной настороженностью.
                                     С некоторыми государствами, конечно, идёт торговля, но для купцов, следующих в Инмар, это становится тем ещё испытанием: постоянные проверки и выдача на границе медальонов, которые ни при каких условиях нельзя снимать с шеи, пока ты находишься на территории королевства, превращают торговое путешествие в неприятное обязательство.
@@ -197,6 +207,8 @@ export const KingdomInmar = () => {
                 <img className={classes.sideDecorationLeftInmar} src={Tower} alt="Tower" draggable="false"/>
             
                 <button className={classes.transitionButton} onClick={handleFactionsPageTransition}>Главная</button>
+
+                {stateСhronicle && <div className={classes.contentScrollImageZoom}><img className={classes.imageZoom} src={InmarImage12} alt="InmarImage12" draggable="false"/><p className={classes.closeImageZoom} onClick={handleCloseСhronicle}>×</p></div>}
         
         </div>
     )

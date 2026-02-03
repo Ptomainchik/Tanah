@@ -968,7 +968,7 @@
     border-radius: 2vw;
 }
 
-.contentScrollMap{
+.contentScrollImageZoom{
     height: 100%;
     width: 100%;
     position: absolute;
@@ -1014,25 +1014,25 @@
     z-index: 20;
 }
 
-.imageMap{
+.imageZoom{
     width: 80%;
     border: solid 0.2vw gray; 
     border-radius: 2vw;
 }
 
-.closeImageMap{
+.closeImageZoom{
     position: absolute;
-    top: -20%;
+    bottom: -200%;
     right: 2.5%;
     color: silver;
     font-size: 10vw;
     font-family: "El Messiri";
     font-weight: bold;
     cursor: pointer;
-    -webkit-text-stroke: 2px grey;
+    -webkit-text-stroke: 2px black;
 }
 
-.closeImageMap:hover{
+.closeImageZoom:hover{
     color: red;
 }
 
@@ -1371,7 +1371,7 @@
     float: right;
 }
 
-.contentScrollMap{
+.contentScrollImageZoom{
     height: 100%;
     width: 100%;
     position: absolute;
@@ -1383,7 +1383,7 @@
     z-index: 20;
 }
 
-.imageMap{
+.imageZoom{
     position: absolute;
     top: 5%;
     left: 50%;
@@ -1394,7 +1394,7 @@
     border-radius: 2vw;
 }
 
-.closeImageMap{
+.closeImageZoom{
     position: absolute;
     top: -5%;
     right: 1%;
@@ -1737,7 +1737,7 @@
     float: right;
 }
 
-.contentScrollMap{
+.contentScrollZoom{
     height: 100%;
     width: 100%;
     position: absolute;
@@ -1749,7 +1749,7 @@
     z-index: 20;
 }
 
-.imageMap{
+.imageZoom{
     position: absolute;
     top: 5%;
     left: 50%;
@@ -1760,7 +1760,7 @@
     border-radius: 2vw;
 }
 
-.closeImageMap{
+.closeImageZoom{
     position: absolute;
     top: -5%;
     right: 1%;
@@ -2103,7 +2103,7 @@
     float: right;
 }
 
-.contentScrollMap{
+.contentScrollZoom{
     height: 100%;
     width: 100%;
     position: absolute;
@@ -2115,7 +2115,7 @@
     z-index: 20;
 }
 
-.imageMap{
+.imageZoom{
     position: absolute;
     top: 5%;
     left: 50%;
@@ -2126,7 +2126,7 @@
     border-radius: 2vw;
 }
 
-.closeImageMap{
+.closeImageZoom{
     position: absolute;
     top: -5%;
     right: 1%;

@@ -10,9 +10,19 @@ import EmpireImage4 from "../../../Images/EmpireImages/EastEmpireModalImage.jpg"
 import EmpireImage5 from "../../../Images/EmpireImages/BiyaMainCharacter.jpg";
 import EmpireImage6 from "../../../Images/EmpireImages/DeathOfFriend.jpg";
 import EmpireImage7 from "../../../Images/EmpireImages/СhronicleOfEmpireMarah.png";
+import { useState } from "react";
 
 export const EmpireMarah = () => {
+    const [stateСhronicle, setStateChronicle] = useState(false);
+        
+        function handleOpenChronicle () {
+            setStateChronicle(true);
+        };
     
+        function handleCloseСhronicle () {
+            setStateChronicle(false);
+        };
+
     const navigate = useNavigate();
 
     function handleFactionsPageTransition() {
@@ -135,7 +145,7 @@ export const EmpireMarah = () => {
                             </p>
                             
                             <p>
-                                <img className={classes.imageVerticalCenter} src={EmpireImage7} alt="EmpireImage7" draggable="false"/>
+                                <img className={classes.imageVerticalCenter} style={{cursor: "zoom-in" , pointerEvents: stateСhronicle === false ? "auto" : "none"}} onClick={handleOpenChronicle} src={EmpireImage7} alt="EmpireImage7" draggable="false"/>
                                     Эльфы являются одним из самых закрытых обществ на континенте не из-за своих убеждений или недоверия к другим расам, а просто потому что так сложилось в веках.
                                     Живя обособленно и открывая свои границы лишь для послов и торговцев, они не желают впускать в свой мир лишние глаза и уши.
                                     Хотя в далёком прошлом их народ, а вернее его отколовшаяся часть, положил начало молодой, по сравнению с остальными, расе инмарцев, заключая ещё до Эпохи Зимы браки с представителями расы регистанов.
@@ -155,6 +165,8 @@ export const EmpireMarah = () => {
                 <img className={classes.sideDecorationLeftEmpire} src={Vine} alt="Vine" draggable="false"/>
 
             <button className={classes.transitionButton} onClick={handleFactionsPageTransition}>Главная</button>
+
+            {stateСhronicle && <div className={classes.contentScrollImageZoom}><img className={classes.imageZoom} src={EmpireImage7} alt="EmpireImage7" draggable="false"/><p className={classes.closeImageZoom} onClick={handleCloseСhronicle}>×</p></div>}
         
         </div>
     )
