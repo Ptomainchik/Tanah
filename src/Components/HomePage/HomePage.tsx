@@ -132,8 +132,11 @@ export const HomePage = () => {
                     </div>
 
                         <button id="History" className={classes.historyButton} onClick={() => {handleTransition("History")}}>
+                           
                             <img src={Feather} alt="Feather" draggable="false"/>
+                           
                             <h1>История мира</h1>
+
                         </button>
 
                 </div>
