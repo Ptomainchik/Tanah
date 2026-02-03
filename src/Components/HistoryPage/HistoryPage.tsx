@@ -89,7 +89,9 @@ export const HistoryPage = () => {
                 <img className={classes.sideDecorationLeftHistory} src={Precipice} alt="Precipice" draggable="false"/>
             
                 <button className={classes.transitionButton} onClick={handleFactionsPageTransition} disabled={stateMap === true}>Главная</button>
+
             {stateMap && <div className={classes.contentScrollMap}><img className={classes.imageMap} src={HistoryImage3} alt="HistoryImage3" draggable="false"/><p className={classes.closeImageMap} onClick={handleCloseMap}>×</p></div>}
+            
         </div>
     )
 };
