@@ -193,8 +193,8 @@ export const KingdomInmar = () => {
                 </div>
             </div>
         
-                <img className={classes.sideDecorationRight} src={Tower} alt="Tower" draggable="false"/>
-                <img className={classes.sideDecorationLeft} src={Tower} alt="Tower" draggable="false"/>
+                <img className={classes.sideDecorationRightInmar} src={Tower} alt="Tower" draggable="false"/>
+                <img className={classes.sideDecorationLeftInmar} src={Tower} alt="Tower" draggable="false"/>
             
                 <button className={classes.transitionButton} onClick={handleFactionsPageTransition}>Главная</button>
         

@@ -166,8 +166,8 @@ export const BlackForest = () => {
                 </div>
             </div>
 
-                <img className={classes.sideDecorationRight} src={Tree} alt="Tree" draggable="false"/> 
-                <img className={classes.sideDecorationLeft} src={Tree} alt="Tree" draggable="false"/>
+                <img className={classes.sideDecorationRightBlackForest} src={Tree} alt="Tree" draggable="false"/> 
+                <img className={classes.sideDecorationLeftBlackForest} src={Tree} alt="Tree" draggable="false"/>
                 
                 <button className={classes.transitionButton} onClick={handleFactionsPageTransition}>Главная</button>
         

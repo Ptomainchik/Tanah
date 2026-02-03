@@ -69,8 +69,8 @@ export const DwarvenRacesPage = () => {
                 </div>
             </div>
         
-                <img className={classes.sideDecorationRight} src={Mountian} alt="Mountian" draggable="false"/>
-                <img className={classes.sideDecorationLeft} src={Mountian} alt="Mountian" draggable="false"/>
+                <img className={classes.sideDecorationRightBearPeaks} src={Mountian} alt="Mountian" draggable="false"/>
+                <img className={classes.sideDecorationLeftBearPeaks} src={Mountian} alt="Mountian" draggable="false"/>
                 <button className={classes.transitionButton} onClick={handleFactionsPageTransition}>Главная</button>
        </div>
     )

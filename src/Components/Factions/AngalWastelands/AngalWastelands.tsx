@@ -129,8 +129,8 @@ export const AngalWastelands = () => {
                 </div>
             </div>
         
-                <img className={classes.sideDecorationRight} src={Column} alt="Column" draggable="false"/>
-                <img className={classes.sideDecorationLeft} src={Column} alt="Column" draggable="false"/>
+                <img className={classes.sideDecorationRightWastelands} src={Column} alt="Column" draggable="false"/>
+                <img className={classes.sideDecorationLeftWastelands} src={Column} alt="Column" draggable="false"/>
 
             <button className={classes.transitionButton} onClick={handleFactionsPageTransition}>Главная</button>
 

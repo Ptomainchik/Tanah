@@ -169,8 +169,8 @@ export const ConfederationOfTribes = () => {
                 </div>
             </div>
 
-                <img className={classes.sideDecorationRight} src={Palm} alt="Palm" draggable="false"/>
-                <img className={classes.sideDecorationLeft} src={Palm} alt="Palm" draggable="false"/>
+                <img className={classes.sideDecorationRightConfederation} src={Palm} alt="Palm" draggable="false"/>
+                <img className={classes.sideDecorationLeftConfederation} src={Palm} alt="Palm" draggable="false"/>
             
             <button className={classes.transitionButton} onClick={handleFactionsPageTransition}>Главная</button>
         

@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
     position: fixed;
-    background: url(../Images/WastelandImages/BackgroundPageWasteland.jpg) no-repeat;
+    background: url(../Images/WastelandImages/BackgroundPageWasteland.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -10,7 +10,7 @@
     width: 100%;
     height: 100%;
     position: fixed;
-    background: url(../Images/EmpireImages/BackgroundPageEmpire.jpg) no-repeat;
+    background: url(../Images/EmpireImages/BackgroundPageEmpire.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -18,7 +18,7 @@
     width: 100%;
     height: 100%;
     position: fixed;
-    background: url(../Images/ConfederationImages/BackgroundPageConfederation.jpg) no-repeat;
+    background: url(../Images/ConfederationImages/BackgroundPageConfederation.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -26,7 +26,7 @@
     width: 100%;
     height: 100%;
     position: fixed;
-    background: url(../Images/InmarImages/BackgroundPageInmar.jpg) no-repeat;
+    background: url(../Images/InmarImages/BackgroundPageInmar.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -34,7 +34,7 @@
     width: 100%;
     height: 100%;
     position: fixed;
-    background: url(../Images/InmarImages/BackgroundPageHuman.jpg) no-repeat;
+    background: url(../Images/InmarImages/BackgroundPageHuman.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -42,7 +42,7 @@
     width: 100%;
     height: 100%;
     position: fixed;
-    background: url(../Images/BlackForestImages/BackgroundPageBlackForest.jpg) no-repeat;
+    background: url(../Images/BlackForestImages/BackgroundPageBlackForest.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -50,7 +50,7 @@
     width: 100%;
     height: 100%;
     position: fixed;
-    background: url(../Images/BearPeaksImages/BackgroundPageBearPeaks.jpg) no-repeat;
+    background: url(../Images/BearPeaksImages/BackgroundPageBearPeaks.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -58,7 +58,7 @@
     width: 100%;
     height: 100%;
     position: fixed;
-    background: url(../Images/MaatImages/BackgroundPageMaat.jpg) no-repeat;
+    background: url(../Images/MaatImages/BackgroundPageMaat.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -66,7 +66,7 @@
     width: 100%;
     height: 100%;
     position: fixed;
-    background: url(../Images/HistoryImages/BackgroundPageHistory.jpg) no-repeat;
+    background: url(../Images/HistoryImages/BackgroundPageHistory.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -74,7 +74,7 @@
     width: 100%;
     height: 100%;
     position: fixed;
-    background: url(../Images/EptinessImages/BackgroundPageEmptiness.jpg) no-repeat;
+    background: url(../Images/EptinessImages/BackgroundPageEmptiness.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -225,7 +225,7 @@
     -webkit-text-stroke: 0.05vw black;
 }
 
-.sideDecorationLeft{
+.sideDecorationLeftEmptiness{
     height: 100%;
     position: absolute;
     top: 0;
@@ -235,7 +235,159 @@
     z-index: 20;
 }
 
-.sideDecorationRight{
+.sideDecorationRightEmptiness{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftHistory{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightHistory{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftWastelands{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightWastelands{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftBearPeaks{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightBearPeaks{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftEmpire{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightEmpire{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftInmar{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightInmar{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftConfederation{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightConfederation{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftBlackForest{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightBlackForest{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftMaat{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightMaat{
     height: 100%;
     position: absolute;
     top: 0;
@@ -869,35 +1021,1118 @@
 }
 
 .closeImageMap{
-    width: 8vw;
-    height: 3vw;
     position: absolute;
-    top: 5%;
-    right: 1%;
-    background: 
-        linear-gradient(
-            225deg, 
-            rgba(0, 0, 0, 0.5) 0%, 
-            rgba(255, 0, 0, 0.5) 50%, 
-            rgba(0, 0, 0, 0.5) 100%
-        ),
-        url(../Images/Textures/BackgroundButtons.jpg);
+    top: -20%;
+    right: 2.5%;
     color: silver;
-    font-size: 1.5vw;
+    font-size: 10vw;
     font-family: "El Messiri";
     font-weight: bold;
-    border: solid 0.2vw gray; 
-    border-radius: 2vw;
     cursor: pointer;
+    -webkit-text-stroke: 2px grey;
 }
 
 .closeImageMap:hover{
+    color: red;
+}
+
+/* -----Adaptations----- */
+
+@media (max-width: 480px) {
+
+.overlayTopbar{
+    width: 100%;
+    height: 7.5vw;
+    position: absolute;
+    top: 0;
+    background: 
+        linear-gradient(225deg, 
+            rgba(72, 72, 72, 0.6) 0%,
+            rgba(160, 160, 160, 0.6) 100%);
+    background-size: 200% 200%;
+    animation: shine 15s infinite linear;
+}
+
+.topbar{
+    width: 100%;
+    height: 7vw;
+    position: absolute;
+    top: 0;
+    background: url(../Images/HomePageImages/BackgoundTopbarHomePage.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.topbar h1{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    margin: 0;
+    padding: 0;
+    font-family: "El Messiri";
+    font-size: 6.5vw;
+    font-weight: bold;
+    background: linear-gradient(
+            180deg, 
+            rgba(0, 0, 0) 0%, 
+            rgb(139, 123, 70) 50%, 
+            rgba(0, 0, 0) 100%
+        );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    -webkit-text-stroke: 0.05vw black;
+}
+
+.sideDecorationLeftEmptiness{
+    height: 100%;
+    width: 15%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightEmptiness{
+    height: 100%;
+    width: 15%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftHistory{
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightHistory{
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftWastelands{
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightWastelands{
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftBearPeaks{
+    height: 80%;
+    width: 20%;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightBearPeaks{
+    height: 80%;
+    width: 20%;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftEmpire{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightEmpire{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftInmar{
+    height: 70%;
+    width: 20%;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightInmar{
+    height: 70%;
+    width: 20%;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftConfederation{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightConfederation{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftBlackForest{
+    height: 70%;
+    width: 20%;
+    position: absolute;
+    top: 30%;
+    left: -3%;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightBlackForest{
+    height: 70%;
+    width: 20%;
+    position: absolute;
+    top: 30%;
+    right: -3%;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftMaat{
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: -15%;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightMaat{
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    right: -15%;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.transitionButton{
+    width: 40vw;
+    position: absolute;
+    bottom: 2.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2vw;
+    border: solid 0.2vw gray;
+    cursor: pointer;
     background: 
         linear-gradient(
             225deg, 
-            rgba(0, 0, 0, 0.5) 0%, 
-            rgba(200, 0, 0, 0.5) 50%, 
-            rgba(0, 0, 0, 0.5) 100%
+            rgba(200, 200, 200, 0.4) 0%, 
+            rgba(50, 50, 50, 0.4) 50%, 
+            rgba(200, 200, 200, 0.4) 100%
         ),
         url(../Images/Textures/BackgroundButtons.jpg);
+    background-size: cover, cover;
+    background-blend-mode: normal;
+    font-size: 5vw;
+    font-family: "El Messiri";
+    font-weight: bold;
+    color: silver;
+    opacity: 1;
+    text-align: center;
+    margin: 0;
+    -webkit-text-stroke: 0.02vw black;
+}
+
+.overlayBlockContent{
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2vw;
+    background: 
+        linear-gradient(225deg, 
+            rgba(72, 72, 72, 0.6) 0%,
+            rgba(160, 160, 160, 0.6) 100%);
+    background-size: 200% 200%;
+    animation: shine 15s infinite linear;
+}
+
+.contentScrollFaction h1{
+    width: 100%;
+    font-size: 3.7vw;
+    font-family: "El messiri";
+    margin: 0;
+    margin-top: 5%;
+    color: silver;
+    text-align: center;
+}
+
+.contentScrollFaction div{
+    width: 98%;
+    font-size: 3vw;
+    font-family: "Pangolin";
+    float: left;
+}
+
+.contentScrollRace h1{
+    width: 100%;
+    font-size: 3.7vw;
+    font-family: "El messiri";
+    margin: 0;
+    margin-top: 5%;
+    color: silver;
+    text-align: center;
+}
+
+.contentScrollRace p{
+    width: 98%;
+    font-size: 3vw;
+    font-family: "Pangolin";
+    float: right;
+}
+
+.imageVerticalLeft{
+    width: 19vw;
+    margin-left: 2%;
+    margin-right: 2%;  
+    margin-top: 2%;
+    border: solid 0.2vw gray; 
+    border-radius: 2vw;
+    float: left;
+}
+
+.imageVerticalRight{
+    width: 19vw;
+    margin-left: 2%;
+    margin-right: 2%;  
+    margin-top: 2%;
+    border: solid 0.2vw gray; 
+    border-radius: 2vw;
+    float: right;
+}
+
+.contentScrollMap{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin: 0;
+    color: silver;
+    text-align: center;
+    z-index: 20;
+}
+
+.imageMap{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 90%;
+    border: solid 0.2vw gray; 
+    border-radius: 2vw;
+}
+
+.closeImageMap{
+    position: absolute;
+    top: -5%;
+    right: 1%;
+    color: silver;
+    font-size: 15vw;
+    cursor: pointer;
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+.overlayTopbar{
+    width: 100%;
+    height: 7vw;
+    position: absolute;
+    top: 0;
+    background: 
+        linear-gradient(225deg, 
+            rgba(72, 72, 72, 0.6) 0%,
+            rgba(160, 160, 160, 0.6) 100%);
+    background-size: 200% 200%;
+    animation: shine 15s infinite linear;
+}
+
+.topbar{
+    width: 100%;
+    height: 6.5vw;
+    position: absolute;
+    top: 0;
+    background: url(../Images/HomePageImages/BackgoundTopbarHomePage.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.topbar h1{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    margin: 0;
+    font-family: "El Messiri";
+    font-size: 6.5vw;
+    font-weight: bold;
+    background: linear-gradient(
+            180deg, 
+            rgba(0, 0, 0) 0%, 
+            rgb(139, 123, 70) 50%, 
+            rgba(0, 0, 0) 100%
+        );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    -webkit-text-stroke: 0.05vw black;
+}
+
+.sideDecorationLeftEmptiness{
+    height: 100%;
+    width: 15%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightEmptiness{
+    height: 100%;
+    width: 15%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftHistory{
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightHistory{
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftWastelands{
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightWastelands{
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftBearPeaks{
+    height: 80%;
+    width: 20%;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightBearPeaks{
+    height: 80%;
+    width: 20%;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftEmpire{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightEmpire{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftInmar{
+    height: 70%;
+    width: 20%;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightInmar{
+    height: 70%;
+    width: 20%;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftConfederation{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightConfederation{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftBlackForest{
+    height: 70%;
+    width: 20%;
+    position: absolute;
+    top: 30%;
+    left: -3%;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightBlackForest{
+    height: 70%;
+    width: 20%;
+    position: absolute;
+    top: 30%;
+    right: -3%;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftMaat{
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: -15%;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightMaat{
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    right: -15%;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.transitionButton{
+    width: 40vw;
+    position: absolute;
+    bottom: 2.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2vw;
+    border: solid 0.2vw gray;
+    cursor: pointer;
+    background: 
+        linear-gradient(
+            225deg, 
+            rgba(200, 200, 200, 0.4) 0%, 
+            rgba(50, 50, 50, 0.4) 50%, 
+            rgba(200, 200, 200, 0.4) 100%
+        ),
+        url(../Images/Textures/BackgroundButtons.jpg);
+    background-size: cover, cover;
+    background-blend-mode: normal;
+    font-size: 5vw;
+    font-family: "El Messiri";
+    font-weight: bold;
+    color: silver;
+    opacity: 1;
+    text-align: center;
+    margin: 0;
+    -webkit-text-stroke: 0.02vw black;
+}
+
+.overlayBlockContent{
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2vw;
+    background: 
+        linear-gradient(225deg, 
+            rgba(72, 72, 72, 0.6) 0%,
+            rgba(160, 160, 160, 0.6) 100%);
+    background-size: 200% 200%;
+    animation: shine 15s infinite linear;
+}
+
+.contentScrollFaction h1{
+    width: 100%;
+    font-size: 3.7vw;
+    font-family: "El messiri";
+    margin: 0;
+    margin-top: 5%;
+    color: silver;
+    text-align: center;
+}
+
+.contentScrollFaction div{
+    width: 98%;
+    font-size: 3vw;
+    font-family: "Pangolin";
+    float: left;
+}
+
+.contentScrollRace h1{
+    width: 100%;
+    font-size: 3.7vw;
+    font-family: "El messiri";
+    margin: 0;
+    margin-top: 5%;
+    color: silver;
+    text-align: center;
+}
+
+.contentScrollRace p{
+    width: 98%;
+    font-size: 3vw;
+    font-family: "Pangolin";
+    float: right;
+}
+
+.imageVerticalLeft{
+    width: 19vw;
+    margin-left: 2%;
+    margin-right: 2%;  
+    margin-top: 2%;
+    border: solid 0.2vw gray; 
+    border-radius: 2vw;
+    float: left;
+}
+
+.imageVerticalRight{
+    width: 19vw;
+    margin-left: 2%;
+    margin-right: 2%;  
+    margin-top: 2%;
+    border: solid 0.2vw gray; 
+    border-radius: 2vw;
+    float: right;
+}
+
+.contentScrollMap{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin: 0;
+    color: silver;
+    text-align: center;
+    z-index: 20;
+}
+
+.imageMap{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 90%;
+    border: solid 0.2vw gray; 
+    border-radius: 2vw;
+}
+
+.closeImageMap{
+    position: absolute;
+    top: -5%;
+    right: 1%;
+    color: silver;
+    font-size: 15vw;
+    cursor: pointer;
+}
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+   
+.overlayTopbar{
+    width: 100%;
+    height: 7vw;
+    position: absolute;
+    top: 0;
+    background: 
+        linear-gradient(225deg, 
+            rgba(72, 72, 72, 0.6) 0%,
+            rgba(160, 160, 160, 0.6) 100%);
+    background-size: 200% 200%;
+    animation: shine 15s infinite linear;
+}
+
+.topbar{
+    width: 100%;
+    height: 6.5vw;
+    position: absolute;
+    top: 0;
+    background: url(../Images/HomePageImages/BackgoundTopbarHomePage.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.topbar h1{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    margin: 0;
+    font-family: "El Messiri";
+    font-size: 6.5vw;
+    font-weight: bold;
+    background: linear-gradient(
+            180deg, 
+            rgba(0, 0, 0) 0%, 
+            rgb(139, 123, 70) 50%, 
+            rgba(0, 0, 0) 100%
+        );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    -webkit-text-stroke: 0.05vw black;
+}
+
+.sideDecorationLeftEmptiness{
+    height: 100%;
+    width: 15%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightEmptiness{
+    height: 100%;
+    width: 15%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftHistory{
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightHistory{
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftWastelands{
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightWastelands{
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftBearPeaks{
+    height: 80%;
+    width: 20%;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightBearPeaks{
+    height: 80%;
+    width: 20%;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftEmpire{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightEmpire{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftInmar{
+    height: 70%;
+    width: 20%;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightInmar{
+    height: 70%;
+    width: 20%;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftConfederation{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightConfederation{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftBlackForest{
+    height: 70%;
+    width: 20%;
+    position: absolute;
+    top: 30%;
+    left: -3%;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightBlackForest{
+    height: 70%;
+    width: 20%;
+    position: absolute;
+    top: 30%;
+    right: -3%;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.sideDecorationLeftMaat{
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: -15%;
+    filter: drop-shadow( 0 0 0.3vw black);
+    transform: scaleX(-1);
+    z-index: 20;
+}
+
+.sideDecorationRightMaat{
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    right: -15%;
+    filter: drop-shadow( 0 0 0.3vw black);
+    z-index: 20;
+}
+
+.transitionButton{
+    width: 40vw;
+    position: absolute;
+    bottom: 2.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2vw;
+    border: solid 0.2vw gray;
+    cursor: pointer;
+    background: 
+        linear-gradient(
+            225deg, 
+            rgba(200, 200, 200, 0.4) 0%, 
+            rgba(50, 50, 50, 0.4) 50%, 
+            rgba(200, 200, 200, 0.4) 100%
+        ),
+        url(../Images/Textures/BackgroundButtons.jpg);
+    background-size: cover, cover;
+    background-blend-mode: normal;
+    font-size: 5vw;
+    font-family: "El Messiri";
+    font-weight: bold;
+    color: silver;
+    opacity: 1;
+    text-align: center;
+    margin: 0;
+    -webkit-text-stroke: 0.02vw black;
+}
+
+.overlayBlockContent{
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2vw;
+    background: 
+        linear-gradient(225deg, 
+            rgba(72, 72, 72, 0.6) 0%,
+            rgba(160, 160, 160, 0.6) 100%);
+    background-size: 200% 200%;
+    animation: shine 15s infinite linear;
+}
+
+.contentScrollFaction h1{
+    width: 100%;
+    font-size: 3.7vw;
+    font-family: "El messiri";
+    margin: 0;
+    margin-top: 5%;
+    color: silver;
+    text-align: center;
+}
+
+.contentScrollFaction div{
+    width: 98%;
+    font-size: 3vw;
+    font-family: "Pangolin";
+    float: left;
+}
+
+.contentScrollRace h1{
+    width: 100%;
+    font-size: 3.7vw;
+    font-family: "El messiri";
+    margin: 0;
+    margin-top: 5%;
+    color: silver;
+    text-align: center;
+}
+
+.contentScrollRace p{
+    width: 98%;
+    font-size: 3vw;
+    font-family: "Pangolin";
+    float: right;
+}
+
+.imageVerticalLeft{
+    width: 19vw;
+    margin-left: 2%;
+    margin-right: 2%;  
+    margin-top: 2%;
+    border: solid 0.2vw gray; 
+    border-radius: 2vw;
+    float: left;
+}
+
+.imageVerticalRight{
+    width: 19vw;
+    margin-left: 2%;
+    margin-right: 2%;  
+    margin-top: 2%;
+    border: solid 0.2vw gray; 
+    border-radius: 2vw;
+    float: right;
+}
+
+.contentScrollMap{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin: 0;
+    color: silver;
+    text-align: center;
+    z-index: 20;
+}
+
+.imageMap{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 90%;
+    border: solid 0.2vw gray; 
+    border-radius: 2vw;
+}
+
+.closeImageMap{
+    position: absolute;
+    top: -5%;
+    right: 1%;
+    color: silver;
+    font-size: 15vw;
+    cursor: pointer;
+} 
+
 }

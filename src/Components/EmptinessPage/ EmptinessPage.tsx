@@ -88,8 +88,8 @@ export const EmptinessPage = () => {
                 </div>
             </div>
         
-                <img className={classes.sideDecorationRight} src={Chain} alt="Chain" draggable="false"/>
-                <img className={classes.sideDecorationLeft} src={Chain} alt="Chain" draggable="false"/>
+                <img className={classes.sideDecorationRightEmptiness} src={Chain} alt="Chain" draggable="false"/>
+                <img className={classes.sideDecorationLeftEmptiness} src={Chain} alt="Chain" draggable="false"/>
             
             <button className={classes.transitionButton} onClick={handleFactionsPageTransition}>Главная</button>
       

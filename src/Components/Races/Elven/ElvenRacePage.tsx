@@ -71,8 +71,8 @@ export const ElvenRacePage = () => {
                 </div>
             </div>
 
-                <img className={classes.sideDecorationRight} src={Vine} alt="Vine" draggable="false"/>
-                <img className={classes.sideDecorationLeft} src={Vine} alt="Vine" draggable="false"/>
+                <img className={classes.sideDecorationRightEmpire} src={Vine} alt="Vine" draggable="false"/>
+                <img className={classes.sideDecorationLeftEmpire} src={Vine} alt="Vine" draggable="false"/>
                 
                 <button className={classes.transitionButton} onClick={handleFactionsPageTransition}>Главная</button>
        

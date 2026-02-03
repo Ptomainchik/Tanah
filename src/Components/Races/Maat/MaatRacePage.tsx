@@ -44,8 +44,8 @@ export const MaatRacePage = () => {
                 </div>
             </div>
 
-                <img className={classes.sideDecorationRight} src={Smoke} alt="Smoke" draggable="false"/>
-                <img className={classes.sideDecorationLeft} src={Smoke} alt="Smoke" draggable="false"/>
+                <img className={classes.sideDecorationRightMaat} src={Smoke} alt="Smoke" draggable="false"/>
+                <img className={classes.sideDecorationLeftMaat} src={Smoke} alt="Smoke" draggable="false"/>
                 
                 <button className={classes.transitionButton} onClick={handleFactionsPageTransition}>Главная</button>
         
