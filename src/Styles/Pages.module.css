@@ -1172,10 +1172,10 @@
 }
 
 .sideDecorationLeftEmpire{
-    height: 50%;
+    height: 55%;
     width: 15%;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 0;
     filter: drop-shadow( 0 0 0.3vw black);
     transform: scaleX(-1);
@@ -1183,10 +1183,10 @@
 }
 
 .sideDecorationRightEmpire{
-    height: 50%;
+    height: 55%;
     width: 15%;
     position: absolute;
-    top: 50%;
+    top: 45%;
     right: 0;
     filter: drop-shadow( 0 0 0.3vw black);
     z-index: 20;
